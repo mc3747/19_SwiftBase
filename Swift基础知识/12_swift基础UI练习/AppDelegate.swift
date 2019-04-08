@@ -31,6 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        
         //设置导航栏背景颜色
         zeroNav.navigationBar.barTintColor = UIColor.red
+        oneNav.navigationBar.barTintColor = UIColor.green
+        twoNav.navigationBar.barTintColor = UIColor.yellow
+        threenav.navigationBar.barTintColor = UIColor.blue
         //设置文字颜色
         zeroNav.navigationBar.titleTextAttributes =
             [NSAttributedStringKey.foregroundColor: UIColor.white]
