@@ -46,6 +46,7 @@ var distance2 = 3.1454
 // 6,变量的可选类型,以下两种等效（可能为该类型，也可能为nil）;访问可以用加！来访问，如果为nil，就会报警
 var optionalInteger1: Int?
 var optionalInteger2: Optional<Int>
+var optionalInteger3:Int
 
 optionalInteger1 = 42
 optionalInteger2 = nil
