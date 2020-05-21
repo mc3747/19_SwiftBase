@@ -8,6 +8,7 @@ var age = 10
 //MemoryLayout.stride(ofValue: age)
 //MemoryLayout.alignment(ofValue: age)
 
+//枚举示例
 enum Direction {
     case A
     case B
