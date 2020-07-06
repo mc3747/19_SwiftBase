@@ -1,11 +1,30 @@
-//: [Previous](@previous)
+/*
+ swift的数据类型
+ 1_基本类型:
+ Int 表示整型值；
+ Double 和 Float 表示浮点型值；
+ Bool 是布尔型值；
+ Character 字符类型
+ String 是文本型数据
+ nil :只能给可选项赋值
+      nil 不是指针——它是一个确定的值，用来表示值缺失
+ 
+ 2_集合类型:
+ Array、Set 和 Dictionary
+ 
+ 3_结构体和类
+ Struct
+ Class
+ 
+ 4_高阶数据类型
+ 元组Tuple
+ 
+ 5_特殊类型
+ 可选类型Optional
+ 
+ */
 
 import Foundation
-//1_常量,变量
-/*
- 1_直接赋值字面量var a = 5
- 2_定义要带上类型var a:Int ; a = 5
- */
 
 //2_整数类型和浮点数(类型的首字母均大写)
 /*
@@ -38,15 +57,6 @@ var a = """
 """
 var b = #"\(x) \ " \u{2603}"#
 var c = "\u{2603}"
-
-//6_运算符
-/*
- ++字符串不能用
- 但可以用a += 1
- */
-var d = 1
-d+=1
-
 
 
 
