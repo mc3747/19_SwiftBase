@@ -8,9 +8,13 @@
         <page name='5_基本运算符'/>
         <page name='6_元组'/>
         <page name='7_条件和循环语句'/>
-        <page name='8_字符和字符串'/>
+        <page name='8_字符,字符数组,字符串'/>
         <page name='9_数组array'/>
         <page name='10_字典dictionary'/>
         <page name='11_集合set'/>
+        <page name='12_函数'/>
+        <page name='13_闭包'/>
+        <page name='14_枚举'/>
+        <page name='15_错误处理'/>
     </pages>
 </playground>
