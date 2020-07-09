@@ -17,4 +17,7 @@ throw VendingMachineError.insufficientFunds(coinsNeeded: 5)
 
 
 //3_错误处理
+    //Swift 中的错误处理并不涉及解除调用栈，这是一个计算代价高昂的过程
+    //throw 语句的性能特性是可以和 return 语句相媲美的
+//3.1_用 throwing 函数传递错误
     

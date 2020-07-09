@@ -16,5 +16,8 @@
         <page name='13_闭包'/>
         <page name='14_枚举'/>
         <page name='15_错误处理'/>
+        <page name='15_结构体'/>
+        <page name='16_类'/>
+        <page name='17_属性'/>
     </pages>
 </playground>
