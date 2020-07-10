@@ -19,5 +19,12 @@
         <page name='15_结构体'/>
         <page name='16_类'/>
         <page name='17_属性'/>
+        <page name='18_方法'/>
+        <page name='19_继承'/>
+        <page name='20_构造过程'/>
+        <page name='21_析构过程'/>
+        <page name='22_扩展'/>
+        <page name='23_协议'/>
+        <page name='24_泛型'/>
     </pages>
 </playground>

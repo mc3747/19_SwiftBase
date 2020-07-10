@@ -11,4 +11,44 @@ import Foundation
      引用计数允许对一个类的多次引用
 */
 
+struct Resolution {
+    var width = 0
+    var height = 0
+}
+class VideoMode {
+    var resolution = Resolution()
+    var interlaced = false
+    var frameRate = 0.0
+    var name: String?
+}
+let tenEighty = VideoMode()
+tenEighty.interlaced = true
+tenEighty.name = "1080i"
+tenEighty.frameRate = 25.0
+
+//2_属性观察器
+/*
+ 可以在以下位置添加属性观察器：
+     自定义的存储属性
+     继承的存储属性
+     继承的计算属性
+ */
+    //willSet 在新的值被设置之前调用
+    //didSet 在新的值被设置之后调用
+class StepCounter {
+    var totalSteps: Int = 0 {
+        willSet(newTotalSteps) {
+            print("将 totalSteps 的值设置为 \(newTotalSteps)")
+        }
+        didSet {
+            if totalSteps > oldValue  {
+                print("增加了 \(totalSteps - oldValue) 步")
+            }
+        }
+    }
+}
+let stepCounter = StepCounter()
+stepCounter.totalSteps = 200
+stepCounter.totalSteps = 360
+stepCounter.totalSteps = 896
 
