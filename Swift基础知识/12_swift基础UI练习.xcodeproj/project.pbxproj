@@ -50,16 +50,8 @@
 		423CA2D61F8E061400EA0756 /* 12_swift基础UI练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "12_swift基础UI练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		423CA2DA1F8E061400EA0756 /* _2_swift__UI__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_swift__UI__UITests.swift; sourceTree = "<group>"; };
 		423CA2DC1F8E061400EA0756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		426CA2A4225ADBB300CAB884 /* 1_基本数据类型.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1_基本数据类型.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		426CA2A6225ADC3800CAB884 /* 5_数组与字典.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "5_数组与字典.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		426CA2A7225ADC3800CAB884 /* 7_闭包.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "7_闭包.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		426CA2A8225ADC3800CAB884 /* 3_基本运算语句.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "3_基本运算语句.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		426CA2A9225ADC3800CAB884 /* 4_字符和字符串.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "4_字符和字符串.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		426CA2AA225ADC3800CAB884 /* 8_枚举，结构体.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "8_枚举，结构体.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		426CA2AB225ADC3800CAB884 /* 9_类，属性和方法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9_类，属性和方法.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		426CA2AC225ADC3800CAB884 /* 6_函数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "6_函数.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		426CA2AD225ADC3800CAB884 /* 10_下标脚本，继承.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10_下标脚本，继承.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		426CA2AE225ADC3800CAB884 /* 2_基本运算符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "2_基本运算符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		426CA2AF225ADC3900CAB884 /* 11_构造和析构.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11_构造和析构.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		426CA2B6225AE8DE00CAB884 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 		426CA2B8225AE8EC00CAB884 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
@@ -149,14 +141,6 @@
 		426CA2A5225ADC1100CAB884 /* playground练习模块 */ = {
 			isa = PBXGroup;
 			children = (
-				426CA2A4225ADBB300CAB884 /* 1_基本数据类型.playground */,
-				426CA2AE225ADC3800CAB884 /* 2_基本运算符.playground */,
-				426CA2A8225ADC3800CAB884 /* 3_基本运算语句.playground */,
-				426CA2A9225ADC3800CAB884 /* 4_字符和字符串.playground */,
-				426CA2A6225ADC3800CAB884 /* 5_数组与字典.playground */,
-				426CA2AC225ADC3800CAB884 /* 6_函数.playground */,
-				426CA2A7225ADC3800CAB884 /* 7_闭包.playground */,
-				426CA2AA225ADC3800CAB884 /* 8_枚举，结构体.playground */,
 				426CA2AB225ADC3800CAB884 /* 9_类，属性和方法.playground */,
 				426CA2AD225ADC3800CAB884 /* 10_下标脚本，继承.playground */,
 				426CA2AF225ADC3900CAB884 /* 11_构造和析构.playground */,
