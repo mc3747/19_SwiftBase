@@ -19,7 +19,7 @@ class ViewController: UIViewController {
             let screenSize = UIScreen.main.bounds.size
             let jumpBtn = UIButton(type: .system)
             jumpBtn.setTitle(title, for: .normal)
-            jumpBtn.frame = CGRect(x:  50, y: 100 + index * 35, width: Int(screenSize.width)  - 100, height: 30);
+            jumpBtn.frame = CGRect(x:  50, y: 100 + index * 45, width: Int(screenSize.width)  - 100, height: 40);
             jumpBtn.backgroundColor = UIColor(red: 50 / 255, green: 123 / 255, blue:  255 / 255, alpha: 1)
             jumpBtn.setTitleColor(UIColor.white, for: .normal)
             //按钮绑定事件，点击时执行

@@ -12,14 +12,16 @@ class BasisLayoutVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let titleArray:[String] = ["1_frame布局","2_snapkit","3_yoga(flex布局)"]
+        let titleArray:[String] = ["1_frame布局","2_snapkit基础","3_snapkit约束更新","4_snapkit约束优先级及动画","5_snapkit案例-登录界面","6_snapkit案例-计算器","7_yoga(flex布局)"]
+        let pushVcName:[String] = ["","SnapKitVC_1","SnapKitVC_2","SnapKitVC_3","SnapKitVC_4","SnapKitVC_5",""]
         for (index,value) in titleArray.enumerated() {
             let button2:UIButton = {
                        let button = UIButton.init()
-                       button.frame = CGRect.init(x: 0, y: 100 + index * 60, width: 200, height: 50)
+                button.frame = CGRect.init(x: 0, y: 100 + index * 60, width: Int(UIScreen.main.bounds.size.width) , height: 50)
                        button.setTitle(value, for: .normal)
                        button.backgroundColor = UIColor.red;
-                       button.addTarget(self, action: #selector(jump2), for: .touchUpInside)
+                       let targetName = "jump" + String(index + 1)
+                       button.addTarget(self, action: Selector(targetName), for: .touchUpInside)
                        return button
                    }()
             self.view.addSubview(button2)
@@ -31,12 +33,24 @@ class BasisLayoutVC: UIViewController {
         
     }
     @objc func jump2(){
-        let vc = SnapKitVC()
+        let vc = SnapKitVC_1()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     @objc func jump3(){
+        let vc = SnapKitVC_2()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @objc func jump4(){
         
     }
-   
+    @objc func jump5(){
+        
+    }
+    @objc func jump6(){
+        
+    }
+    @objc func jump7(){
+           
+    }
 
 }

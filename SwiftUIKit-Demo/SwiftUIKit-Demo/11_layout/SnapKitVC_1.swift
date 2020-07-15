@@ -10,6 +10,7 @@ import UIKit
 import SnapKit
 
 /*
+ ✅:snapkit基本使用
 1_视图属性:
  | 视图属性（ViewAttribute） | 布局属性（NSLayoutAttribute） |
  | view.snp.left | NSLayoutAttribute.Left |
@@ -51,7 +52,7 @@ import SnapKit
         make.center.equalTo(boxOutter)
         make.size.equalTo(boxOutter).multipliedBy(0.5)
 */
-class SnapKitVC: UIViewController {
+class SnapKitVC_1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

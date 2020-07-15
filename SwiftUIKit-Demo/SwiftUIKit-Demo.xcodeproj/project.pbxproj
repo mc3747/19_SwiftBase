@@ -13,7 +13,11 @@
 		5C35AD4624BEAC8100AB63CB /* CustomizeTableviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4524BEAC8100AB63CB /* CustomizeTableviewVC.swift */; };
 		5C35AD4824BED61A00AB63CB /* CustomizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4724BED61A00AB63CB /* CustomizeTableViewCell.swift */; };
 		5C35AD4C24BEEA0400AB63CB /* BasisLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4B24BEEA0400AB63CB /* BasisLayoutVC.swift */; };
-		5C35AD4E24BEEA3400AB63CB /* SnapKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4D24BEEA3300AB63CB /* SnapKitVC.swift */; };
+		5C35AD4E24BEEA3400AB63CB /* SnapKitVC_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4D24BEEA3300AB63CB /* SnapKitVC_1.swift */; };
+		5C35AD5124BF013B00AB63CB /* SnapKitVC_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD5024BF013B00AB63CB /* SnapKitVC_2.swift */; };
+		5C35AD5324BF015200AB63CB /* SnapKitVC_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD5224BF015200AB63CB /* SnapKitVC_3.swift */; };
+		5C35AD5524BF080700AB63CB /* SnapKitVC_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD5424BF080700AB63CB /* SnapKitVC_4.swift */; };
+		5C35AD5724BF081E00AB63CB /* SnapKitVC_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD5624BF081E00AB63CB /* SnapKitVC_5.swift */; };
 		5C58734F24BD39A1008ABCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58734E24BD39A1008ABCAD /* AppDelegate.swift */; };
 		5C58735124BD39A1008ABCAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58735024BD39A1008ABCAD /* SceneDelegate.swift */; };
 		5C58735324BD39A1008ABCAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58735224BD39A1008ABCAD /* ViewController.swift */; };
@@ -55,7 +59,11 @@
 		5C35AD4524BEAC8100AB63CB /* CustomizeTableviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeTableviewVC.swift; sourceTree = "<group>"; };
 		5C35AD4724BED61A00AB63CB /* CustomizeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeTableViewCell.swift; sourceTree = "<group>"; };
 		5C35AD4B24BEEA0400AB63CB /* BasisLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisLayoutVC.swift; sourceTree = "<group>"; };
-		5C35AD4D24BEEA3300AB63CB /* SnapKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitVC.swift; sourceTree = "<group>"; };
+		5C35AD4D24BEEA3300AB63CB /* SnapKitVC_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitVC_1.swift; sourceTree = "<group>"; };
+		5C35AD5024BF013B00AB63CB /* SnapKitVC_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitVC_2.swift; sourceTree = "<group>"; };
+		5C35AD5224BF015200AB63CB /* SnapKitVC_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitVC_3.swift; sourceTree = "<group>"; };
+		5C35AD5424BF080700AB63CB /* SnapKitVC_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitVC_4.swift; sourceTree = "<group>"; };
+		5C35AD5624BF081E00AB63CB /* SnapKitVC_5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitVC_5.swift; sourceTree = "<group>"; };
 		5C58734B24BD39A1008ABCAD /* SwiftUIKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUIKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C58734E24BD39A1008ABCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C58735024BD39A1008ABCAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -275,7 +283,11 @@
 			isa = PBXGroup;
 			children = (
 				5C35AD4B24BEEA0400AB63CB /* BasisLayoutVC.swift */,
-				5C35AD4D24BEEA3300AB63CB /* SnapKitVC.swift */,
+				5C35AD4D24BEEA3300AB63CB /* SnapKitVC_1.swift */,
+				5C35AD5024BF013B00AB63CB /* SnapKitVC_2.swift */,
+				5C35AD5224BF015200AB63CB /* SnapKitVC_3.swift */,
+				5C35AD5424BF080700AB63CB /* SnapKitVC_4.swift */,
+				5C35AD5624BF081E00AB63CB /* SnapKitVC_5.swift */,
 			);
 			path = 11_layout;
 			sourceTree = "<group>";
@@ -465,15 +477,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C58735324BD39A1008ABCAD /* ViewController.swift in Sources */,
+				5C35AD5324BF015200AB63CB /* SnapKitVC_3.swift in Sources */,
+				5C35AD5124BF013B00AB63CB /* SnapKitVC_2.swift in Sources */,
 				5C58734F24BD39A1008ABCAD /* AppDelegate.swift in Sources */,
+				5C35AD5524BF080700AB63CB /* SnapKitVC_4.swift in Sources */,
 				5C58735124BD39A1008ABCAD /* SceneDelegate.swift in Sources */,
-				5C35AD4E24BEEA3400AB63CB /* SnapKitVC.swift in Sources */,
+				5C35AD4E24BEEA3400AB63CB /* SnapKitVC_1.swift in Sources */,
 				5C35AD4C24BEEA0400AB63CB /* BasisLayoutVC.swift in Sources */,
 				5CB3B8EE24BD861D0029338B /* BasisViewController.swift in Sources */,
 				5C58735924BD39A1008ABCAD /* SwiftUIKit_Demo.xcdatamodeld in Sources */,
 				5C35AD3F24BE964D00AB63CB /* BasisTableViewViewController.swift in Sources */,
 				5C35AD4424BEAC3000AB63CB /* DefaultTableviewVC.swift in Sources */,
 				5CB3B8FB24BD8CAF0029338B /* BasisButtonViewController.swift in Sources */,
+				5C35AD5724BF081E00AB63CB /* SnapKitVC_5.swift in Sources */,
 				5C35AD4224BE988300AB63CB /* StringTool.swift in Sources */,
 				5C35AD4824BED61A00AB63CB /* CustomizeTableViewCell.swift in Sources */,
 				5CB3B8EC24BD4B740029338B /* SelfDefinedView.swift in Sources */,
