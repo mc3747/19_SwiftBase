@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C35AD3F24BE964D00AB63CB /* BasisTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD3E24BE964D00AB63CB /* BasisTableViewViewController.swift */; };
+		5C35AD4224BE988300AB63CB /* StringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4124BE988300AB63CB /* StringTool.swift */; };
+		5C35AD4424BEAC3000AB63CB /* DefaultTableviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4324BEAC3000AB63CB /* DefaultTableviewVC.swift */; };
+		5C35AD4624BEAC8100AB63CB /* CustomizeTableviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4524BEAC8100AB63CB /* CustomizeTableviewVC.swift */; };
+		5C35AD4824BED61A00AB63CB /* CustomizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4724BED61A00AB63CB /* CustomizeTableViewCell.swift */; };
+		5C35AD4C24BEEA0400AB63CB /* BasisLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4B24BEEA0400AB63CB /* BasisLayoutVC.swift */; };
+		5C35AD4E24BEEA3400AB63CB /* SnapKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4D24BEEA3300AB63CB /* SnapKitVC.swift */; };
 		5C58734F24BD39A1008ABCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58734E24BD39A1008ABCAD /* AppDelegate.swift */; };
 		5C58735124BD39A1008ABCAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58735024BD39A1008ABCAD /* SceneDelegate.swift */; };
 		5C58735324BD39A1008ABCAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58735224BD39A1008ABCAD /* ViewController.swift */; };
@@ -19,6 +26,7 @@
 		5CB3B8EC24BD4B740029338B /* SelfDefinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8EB24BD4B740029338B /* SelfDefinedView.swift */; };
 		5CB3B8EE24BD861D0029338B /* BasisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8ED24BD861D0029338B /* BasisViewController.swift */; };
 		5CB3B8FB24BD8CAF0029338B /* BasisButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8FA24BD8CAF0029338B /* BasisButtonViewController.swift */; };
+		5CBECAE92729B0B06FE2C794 /* Pods_SwiftUIKit_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43010B1B0DFBAD83AE2DD065 /* Pods_SwiftUIKit_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43010B1B0DFBAD83AE2DD065 /* Pods_SwiftUIKit_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIKit_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B6ACC400F0BDCE84583449 /* Pods-SwiftUIKit-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIKit-Demo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIKit-Demo/Pods-SwiftUIKit-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		5C35AD3E24BE964D00AB63CB /* BasisTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisTableViewViewController.swift; sourceTree = "<group>"; };
+		5C35AD4124BE988300AB63CB /* StringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
+		5C35AD4324BEAC3000AB63CB /* DefaultTableviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableviewVC.swift; sourceTree = "<group>"; };
+		5C35AD4524BEAC8100AB63CB /* CustomizeTableviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeTableviewVC.swift; sourceTree = "<group>"; };
+		5C35AD4724BED61A00AB63CB /* CustomizeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeTableViewCell.swift; sourceTree = "<group>"; };
+		5C35AD4B24BEEA0400AB63CB /* BasisLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisLayoutVC.swift; sourceTree = "<group>"; };
+		5C35AD4D24BEEA3300AB63CB /* SnapKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitVC.swift; sourceTree = "<group>"; };
 		5C58734B24BD39A1008ABCAD /* SwiftUIKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUIKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C58734E24BD39A1008ABCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C58735024BD39A1008ABCAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +74,7 @@
 		5CB3B8EB24BD4B740029338B /* SelfDefinedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDefinedView.swift; sourceTree = "<group>"; };
 		5CB3B8ED24BD861D0029338B /* BasisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisViewController.swift; sourceTree = "<group>"; };
 		5CB3B8FA24BD8CAF0029338B /* BasisButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisButtonViewController.swift; sourceTree = "<group>"; };
+		FB8DB18AC1884415A221ED68 /* Pods-SwiftUIKit-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIKit-Demo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIKit-Demo/Pods-SwiftUIKit-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CBECAE92729B0B06FE2C794 /* Pods_SwiftUIKit_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +103,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C86AD4684C834A5894CCDD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43010B1B0DFBAD83AE2DD065 /* Pods_SwiftUIKit_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C35AD4024BE979B00AB63CB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5C35AD4124BE988300AB63CB /* StringTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5C35AD4F24BEEF9C00AB63CB /* 12_sizeAdaptation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 12_sizeAdaptation;
+			sourceTree = "<group>";
+		};
 		5C58734224BD39A1008ABCAD = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +133,8 @@
 				5C58736724BD39A6008ABCAD /* SwiftUIKit-DemoTests */,
 				5C58737224BD39A6008ABCAD /* SwiftUIKit-DemoUITests */,
 				5C58734C24BD39A1008ABCAD /* Products */,
+				F75341F6CE1E293B7A32B2FE /* Pods */,
+				2C86AD4684C834A5894CCDD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,9 +154,11 @@
 				5C58734E24BD39A1008ABCAD /* AppDelegate.swift */,
 				5C58735024BD39A1008ABCAD /* SceneDelegate.swift */,
 				5C58735224BD39A1008ABCAD /* ViewController.swift */,
+				5C35AD4024BE979B00AB63CB /* Tool */,
+				5C35AD4F24BEEF9C00AB63CB /* 12_sizeAdaptation */,
 				5CB3B8F924BD8B8F0029338B /* 11_layout */,
 				5CB3B8F824BD8B1C0029338B /* 10_naviBar */,
-				5CB3B8F724BD8AB20029338B /* 9_barBar */,
+				5CB3B8F724BD8AB20029338B /* 9_tabBar */,
 				5CB3B8F624BD8A9A0029338B /* 8_collectionView */,
 				5CB3B8F524BD8A820029338B /* 7_tableView */,
 				5CB3B8F424BD8A6F0029338B /* 6_stack */,
@@ -196,6 +242,10 @@
 		5CB3B8F524BD8A820029338B /* 7_tableView */ = {
 			isa = PBXGroup;
 			children = (
+				5C35AD3E24BE964D00AB63CB /* BasisTableViewViewController.swift */,
+				5C35AD4324BEAC3000AB63CB /* DefaultTableviewVC.swift */,
+				5C35AD4524BEAC8100AB63CB /* CustomizeTableviewVC.swift */,
+				5C35AD4724BED61A00AB63CB /* CustomizeTableViewCell.swift */,
 			);
 			path = 7_tableView;
 			sourceTree = "<group>";
@@ -207,11 +257,11 @@
 			path = 8_collectionView;
 			sourceTree = "<group>";
 		};
-		5CB3B8F724BD8AB20029338B /* 9_barBar */ = {
+		5CB3B8F724BD8AB20029338B /* 9_tabBar */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = 9_barBar;
+			path = 9_tabBar;
 			sourceTree = "<group>";
 		};
 		5CB3B8F824BD8B1C0029338B /* 10_naviBar */ = {
@@ -224,8 +274,19 @@
 		5CB3B8F924BD8B8F0029338B /* 11_layout */ = {
 			isa = PBXGroup;
 			children = (
+				5C35AD4B24BEEA0400AB63CB /* BasisLayoutVC.swift */,
+				5C35AD4D24BEEA3300AB63CB /* SnapKitVC.swift */,
 			);
 			path = 11_layout;
+			sourceTree = "<group>";
+		};
+		F75341F6CE1E293B7A32B2FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DB18AC1884415A221ED68 /* Pods-SwiftUIKit-Demo.debug.xcconfig */,
+				54B6ACC400F0BDCE84583449 /* Pods-SwiftUIKit-Demo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C58737824BD39A6008ABCAD /* Build configuration list for PBXNativeTarget "SwiftUIKit-Demo" */;
 			buildPhases = (
+				92F5F8587369A46483295C1F /* [CP] Check Pods Manifest.lock */,
 				5C58734724BD39A1008ABCAD /* Sources */,
 				5C58734824BD39A1008ABCAD /* Frameworks */,
 				5C58734924BD39A1008ABCAD /* Resources */,
+				40C1E08667278423CA797F06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -354,6 +417,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40C1E08667278423CA797F06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIKit-Demo/Pods-SwiftUIKit-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIKit-Demo/Pods-SwiftUIKit-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIKit-Demo/Pods-SwiftUIKit-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F5F8587369A46483295C1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIKit-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C58734724BD39A1008ABCAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -362,10 +467,17 @@
 				5C58735324BD39A1008ABCAD /* ViewController.swift in Sources */,
 				5C58734F24BD39A1008ABCAD /* AppDelegate.swift in Sources */,
 				5C58735124BD39A1008ABCAD /* SceneDelegate.swift in Sources */,
+				5C35AD4E24BEEA3400AB63CB /* SnapKitVC.swift in Sources */,
+				5C35AD4C24BEEA0400AB63CB /* BasisLayoutVC.swift in Sources */,
 				5CB3B8EE24BD861D0029338B /* BasisViewController.swift in Sources */,
 				5C58735924BD39A1008ABCAD /* SwiftUIKit_Demo.xcdatamodeld in Sources */,
+				5C35AD3F24BE964D00AB63CB /* BasisTableViewViewController.swift in Sources */,
+				5C35AD4424BEAC3000AB63CB /* DefaultTableviewVC.swift in Sources */,
 				5CB3B8FB24BD8CAF0029338B /* BasisButtonViewController.swift in Sources */,
+				5C35AD4224BE988300AB63CB /* StringTool.swift in Sources */,
+				5C35AD4824BED61A00AB63CB /* CustomizeTableViewCell.swift in Sources */,
 				5CB3B8EC24BD4B740029338B /* SelfDefinedView.swift in Sources */,
+				5C35AD4624BEAC8100AB63CB /* CustomizeTableviewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +648,7 @@
 		};
 		5C58737924BD39A6008ABCAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8DB18AC1884415A221ED68 /* Pods-SwiftUIKit-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,6 +666,7 @@
 		};
 		5C58737A24BD39A6008ABCAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B6ACC400F0BDCE84583449 /* Pods-SwiftUIKit-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

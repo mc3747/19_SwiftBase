@@ -11,22 +11,9 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        window = UIWindow(frame:UIScreen.main.bounds)
-        window?.backgroundColor = UIColor.white
-        //1.创建导航控制器的根视图
-        let vc = ViewController()
-        //2.创建导航视图控制器，并为他制定根视图控制器
-        let navigation = UINavigationController(rootViewController: vc)
-        //3.将导航视图控制器设置为window的根视图控制器
-        window?.rootViewController = navigation
-        //4.window可见
-        window?.makeKeyAndVisible()
+        //在SceneDelegate中设置导航
         
         return true
     }

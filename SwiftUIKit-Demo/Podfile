@@ -1,0 +1,11 @@
+# platform :ios, '9.0'
+
+use_frameworks!
+
+target 'SwiftUIKit-Demo' do
+
+	pod 'SnapKit'
+	pod 'RxSwift'
+
+
+end
