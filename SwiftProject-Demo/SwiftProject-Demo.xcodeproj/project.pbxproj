@@ -28,6 +28,10 @@
 		5C094C2724C02E9400BB2AFD /* PushTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C2624C02E9400BB2AFD /* PushTool.swift */; };
 		5C094C2924C0322D00BB2AFD /* DesignPatternVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C2824C0322D00BB2AFD /* DesignPatternVC.swift */; };
 		5C094C2B24C0324400BB2AFD /* RxSwiftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C2A24C0324400BB2AFD /* RxSwiftVC.swift */; };
+		5C094C2F24C047BB00BB2AFD /* RxSwift1_ConceptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C2E24C047BB00BB2AFD /* RxSwift1_ConceptVC.swift */; };
+		5C094C3124C047EA00BB2AFD /* RxSwift2_OperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C3024C047EA00BB2AFD /* RxSwift2_OperatorVC.swift */; };
+		5C094C3324C0481300BB2AFD /* RxSwift3_UIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C3224C0481300BB2AFD /* RxSwift3_UIVC.swift */; };
+		5C094C3524C0483800BB2AFD /* RxSwift4_DemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C3424C0483800BB2AFD /* RxSwift4_DemoVC.swift */; };
 		EDD446F2DC9096F480C5F694 /* Pods_SwiftProject_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B589DBE8642637A462E18E0F /* Pods_SwiftProject_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +80,10 @@
 		5C094C2624C02E9400BB2AFD /* PushTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTool.swift; sourceTree = "<group>"; };
 		5C094C2824C0322D00BB2AFD /* DesignPatternVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternVC.swift; sourceTree = "<group>"; };
 		5C094C2A24C0324400BB2AFD /* RxSwiftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftVC.swift; sourceTree = "<group>"; };
+		5C094C2E24C047BB00BB2AFD /* RxSwift1_ConceptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift1_ConceptVC.swift; sourceTree = "<group>"; };
+		5C094C3024C047EA00BB2AFD /* RxSwift2_OperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift2_OperatorVC.swift; sourceTree = "<group>"; };
+		5C094C3224C0481300BB2AFD /* RxSwift3_UIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift3_UIVC.swift; sourceTree = "<group>"; };
+		5C094C3424C0483800BB2AFD /* RxSwift4_DemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift4_DemoVC.swift; sourceTree = "<group>"; };
 		B589DBE8642637A462E18E0F /* Pods_SwiftProject_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C162D8342057DED7B821A40C /* Pods-SwiftProject-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-Demo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject-Demo/Pods-SwiftProject-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C43ED2CF34B02C75961D74CA /* Pods-SwiftProject-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-Demo.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject-Demo/Pods-SwiftProject-Demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -215,8 +223,8 @@
 			isa = PBXGroup;
 			children = (
 				5C094C1524BFE2BC00BB2AFD /* DesignStyleVC.swift */,
-				5C094C2824C0322D00BB2AFD /* DesignPatternVC.swift */,
-				5C094C2A24C0324400BB2AFD /* RxSwiftVC.swift */,
+				5C094C2D24C043B600BB2AFD /* 2_RxSwift */,
+				5C094C2C24C043A400BB2AFD /* 1_DesignPattern */,
 			);
 			path = 2_DesignStyle;
 			sourceTree = "<group>";
@@ -269,6 +277,26 @@
 			children = (
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		5C094C2C24C043A400BB2AFD /* 1_DesignPattern */ = {
+			isa = PBXGroup;
+			children = (
+				5C094C2824C0322D00BB2AFD /* DesignPatternVC.swift */,
+			);
+			path = 1_DesignPattern;
+			sourceTree = "<group>";
+		};
+		5C094C2D24C043B600BB2AFD /* 2_RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5C094C2A24C0324400BB2AFD /* RxSwiftVC.swift */,
+				5C094C2E24C047BB00BB2AFD /* RxSwift1_ConceptVC.swift */,
+				5C094C3024C047EA00BB2AFD /* RxSwift2_OperatorVC.swift */,
+				5C094C3224C0481300BB2AFD /* RxSwift3_UIVC.swift */,
+				5C094C3424C0483800BB2AFD /* RxSwift4_DemoVC.swift */,
+			);
+			path = 2_RxSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,6 +479,7 @@
 				5C094C1A24BFE2E700BB2AFD /* AdvancedPointVC.swift in Sources */,
 				5C094C1424BFE2A300BB2AFD /* BasisPointVC.swift in Sources */,
 				5C094C2524C0049400BB2AFD /* CommonTableViewVC.swift in Sources */,
+				5C094C3324C0481300BB2AFD /* RxSwift3_UIVC.swift in Sources */,
 				5C094BDC24BFDB3100BB2AFD /* ViewController.swift in Sources */,
 				5C094C1824BFE2D100BB2AFD /* DifficultPointVC.swift in Sources */,
 				5C094BD824BFDB3100BB2AFD /* AppDelegate.swift in Sources */,
@@ -461,6 +490,9 @@
 				5C094BDA24BFDB3100BB2AFD /* SceneDelegate.swift in Sources */,
 				5C094C2324BFEA7700BB2AFD /* UIColor+Extension.swift in Sources */,
 				5C094C2924C0322D00BB2AFD /* DesignPatternVC.swift in Sources */,
+				5C094C3524C0483800BB2AFD /* RxSwift4_DemoVC.swift in Sources */,
+				5C094C3124C047EA00BB2AFD /* RxSwift2_OperatorVC.swift in Sources */,
+				5C094C2F24C047BB00BB2AFD /* RxSwift1_ConceptVC.swift in Sources */,
 				5C094C2724C02E9400BB2AFD /* PushTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
