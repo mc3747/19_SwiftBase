@@ -41,13 +41,16 @@ class BasisLayoutVC: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     @objc func jump4(){
-        
+        let vc = SnapKitVC_3()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     @objc func jump5(){
-        
+        let vc = SnapKitVC_4()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     @objc func jump6(){
-        
+        let vc = SnapKitVC_5()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     @objc func jump7(){
            

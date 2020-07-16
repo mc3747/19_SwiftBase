@@ -50,9 +50,6 @@
 		423CA2D61F8E061400EA0756 /* 12_swift基础UI练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "12_swift基础UI练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		423CA2DA1F8E061400EA0756 /* _2_swift__UI__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_swift__UI__UITests.swift; sourceTree = "<group>"; };
 		423CA2DC1F8E061400EA0756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		426CA2AB225ADC3800CAB884 /* 9_类，属性和方法.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "9_类，属性和方法.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		426CA2AD225ADC3800CAB884 /* 10_下标脚本，继承.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "10_下标脚本，继承.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		426CA2AF225ADC3900CAB884 /* 11_构造和析构.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "11_构造和析构.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		426CA2B6225AE8DE00CAB884 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
 		426CA2B8225AE8EC00CAB884 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
 		426CA2BA225AE8F600CAB884 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +103,6 @@
 		423CA2B91F8E061400EA0756 /* 12_swift基础UI练习 */ = {
 			isa = PBXGroup;
 			children = (
-				426CA2A5225ADC1100CAB884 /* playground练习模块 */,
 				423CA2BA1F8E061400EA0756 /* AppDelegate.swift */,
 				423CA2BC1F8E061400EA0756 /* ViewController.swift */,
 				426CA2B6225AE8DE00CAB884 /* OneViewController.swift */,
@@ -136,16 +132,6 @@
 				423CA2DC1F8E061400EA0756 /* Info.plist */,
 			);
 			path = "12_swift基础UI练习UITests";
-			sourceTree = "<group>";
-		};
-		426CA2A5225ADC1100CAB884 /* playground练习模块 */ = {
-			isa = PBXGroup;
-			children = (
-				426CA2AB225ADC3800CAB884 /* 9_类，属性和方法.playground */,
-				426CA2AD225ADC3800CAB884 /* 10_下标脚本，继承.playground */,
-				426CA2AF225ADC3900CAB884 /* 11_构造和析构.playground */,
-			);
-			path = "playground练习模块";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
