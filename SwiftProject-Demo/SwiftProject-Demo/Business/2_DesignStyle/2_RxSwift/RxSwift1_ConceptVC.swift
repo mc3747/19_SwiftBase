@@ -8,11 +8,20 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
+
 /*
-Observable发布
-Observable订阅
-Observable监听
-Observable销毁
+ 1_观察序列:
+    Observable发布
+    Observable订阅
+    Observable监听
+    Observable销毁
+ 2_观察者
+    在 subscribe 方法中创建
+    在 bind 方法中创建
+    使用 AnyObserver 创建观察者
+    使用 Binder 创建观察者
+    
  特征序列
  调度器
  错误处理
@@ -34,6 +43,13 @@ class RxSwift1_ConceptVC: UIViewController {
     var observable11:Observable<Int>?
     var observable12:Observable<Int>?
     var observable13:Observable<Int>?
+    let label1:UILabel = {
+        let label = UILabel.init()
+        label.frame = CGRect.init(x: 0, y: 170, width: 200, height: 50)
+        label.backgroundColor = UIColor.red
+        label.textColor = UIColor.yellow
+        return label
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +58,10 @@ class RxSwift1_ConceptVC: UIViewController {
         subscribeObservable()
         monitorObservable()
         destroyObservable()
+        
+        self.view.addSubview(self.label1)
+        self.makeObserver1()
+        self.makeObserver2()
     }
     
 //1_创建
@@ -180,5 +200,30 @@ class RxSwift1_ConceptVC: UIViewController {
         observable2.subscribe { event in
             print(event)
         }.disposed(by: disposeBag)
+    }
+    
+// MARK: - 创建观察者
+    //在subscribe 方法中创建
+    func makeObserver1(){
+        let observable = Observable.of("A", "B", "C")
+        observable.subscribe(onNext: { element in
+            print(element)
+        }, onError: { error in
+            print(error)
+        }, onCompleted: {
+            print("completed")
+        })
+    }
+    //subscribe 方法中创建
+    func makeObserver2(){
+        let disposeBag = DisposeBag()
+        //Observable序列（每隔1秒钟发出一个索引数）
+        let observable = Observable<Int>.interval(10, scheduler: MainScheduler.instance)
+        observable.map { "当前索引数：\($0 )"}
+                   .bind { [weak self](text) in
+                       //收到发出的索引数后显示到label上
+                       self?.label1.text = text
+                   }
+                   .disposed(by: disposeBag)
     }
 }
