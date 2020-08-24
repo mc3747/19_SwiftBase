@@ -19,7 +19,6 @@ class CommonTableViewVC: UITableViewController {
     }
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         
         return 1
@@ -29,6 +28,7 @@ class CommonTableViewVC: UITableViewController {
         
         return self.titleItems?.count ?? 1
     }
+    
     //cell
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         

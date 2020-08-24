@@ -19,6 +19,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                        //1.创建导航控制器的根视图
                        let tarbarVC = CommonTabBarVC()
                        let naviVC = UINavigationController(rootViewController: tarbarVC)
+                        naviVC.navigationBar.barTintColor = UIColor.red
+                        naviVC.navigationBar.titleTextAttributes =
+                            [NSAttributedString.Key.foregroundColor: UIColor.white]
+                        naviVC.navigationBar.tintColor = UIColor.green
                        //2.获取window
                        self.window = UIWindow(windowScene: windowScene)
                        //3.设置window背景色

@@ -46,8 +46,9 @@ class CommonViewController: UIViewController {
         //由于页面的底色比较深。所以设置状态栏的风格为亮色，
         //同时隐藏导航控制器的后退按钮。
         UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+        
         //隐藏导航控制器的控制按钮
-        self.navigationItem.hidesBackButton = true
+        self.navigationItem.hidesBackButton = false
 
         // Do any additional setup after loading the view.
         //对组件常见的高度和宽度进行初始化
@@ -147,7 +148,6 @@ class CommonViewController: UIViewController {
 
     //接着实现手指在屏幕上由右向左滑动时，使导航控制器返回上一页的功能。
     //首先重写视图控制器的手指按下的事件
-    //MARK: -
     //MARK: touchesBegan
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
     {

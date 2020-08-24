@@ -13,6 +13,7 @@ class DesignPatternVC: CommonViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
           self.view.backgroundColor = UIColor.green
+          
     }
     
 
