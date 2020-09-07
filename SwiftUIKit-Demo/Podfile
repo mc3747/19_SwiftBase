@@ -5,6 +5,7 @@ use_frameworks!
 target 'SwiftUIKit-Demo' do
 
 	pod 'SnapKit'
-
+  
+  pod 'MJRefresh'
 
 end

@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let titleArray:[String] = ["1_view","2_button","3_imageView","4_text","5_alert","6_stack",
-        "7_tableview","8_collectionView","9_tabBar","10_naviBar","11_layout","12_动画"]
+        "7_tableview","8_collectionView","9_tabBar","10_naviBar","11_layout","12_相册"]
         
         for (index,title) in titleArray.enumerated() {
             let screenSize = UIScreen.main.bounds.size
@@ -56,6 +56,10 @@ class ViewController: UIViewController {
     //11_push到layout
     @objc func pageJump11(){
         let destination = BasisLayoutVC()
+        self.navigationController?.pushViewController(destination, animated: true)
+    }
+    @objc func pageJump12(){
+        let destination = PhoneAlbum()
         self.navigationController?.pushViewController(destination, animated: true)
     }
 }

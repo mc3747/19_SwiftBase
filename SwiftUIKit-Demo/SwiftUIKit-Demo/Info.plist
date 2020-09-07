@@ -60,5 +60,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>若不允许，你将无法在APP中保存及使用照片。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>若不允许，你将无法在APP中保存及使用照片。</string>
 </dict>
 </plist>
