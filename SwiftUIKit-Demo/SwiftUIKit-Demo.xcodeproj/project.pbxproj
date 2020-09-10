@@ -32,8 +32,11 @@
 		5CB3B8EE24BD861D0029338B /* BasisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8ED24BD861D0029338B /* BasisViewController.swift */; };
 		5CB3B8FB24BD8CAF0029338B /* BasisButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8FA24BD8CAF0029338B /* BasisButtonViewController.swift */; };
 		5CBECAE92729B0B06FE2C794 /* Pods_SwiftUIKit_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43010B1B0DFBAD83AE2DD065 /* Pods_SwiftUIKit_Demo.framework */; };
-		5CD0F76D25067F610062F46F /* UITableviewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0F76B25067F610062F46F /* UITableviewExtension.swift */; };
-		5CD0F76E25067F610062F46F /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0F76C25067F610062F46F /* UICollectionViewExtension.swift */; };
+		5CCE44302509CF9C009A118C /* NoDataTableviewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE442F2509CF9C009A118C /* NoDataTableviewDemo.swift */; };
+		5CCE44322509D20F009A118C /* CustomMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE44312509D20F009A118C /* CustomMethod.swift */; };
+		5CCE4438250A0708009A118C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE4436250A0708009A118C /* CustomTableViewCell.swift */; };
+		5CCE4439250A0708009A118C /* CustomCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE4437250A0708009A118C /* CustomCellController.swift */; };
+		5CCE443B250A1585009A118C /* NoDataTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE443A250A1585009A118C /* NoDataTableView.swift */; };
 		5CD0F7732506800B0062F46F /* HZRefreshBackNormalFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0F7702506800B0062F46F /* HZRefreshBackNormalFooter.swift */; };
 		5CD0F7742506800B0062F46F /* UIScrollViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0F7712506800B0062F46F /* UIScrollViewExtension.swift */; };
 		5CD0F7752506800B0062F46F /* HZRefreshNormalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0F7722506800B0062F46F /* HZRefreshNormalHeader.swift */; };
@@ -94,8 +97,11 @@
 		5CB3B8EB24BD4B740029338B /* SelfDefinedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDefinedView.swift; sourceTree = "<group>"; };
 		5CB3B8ED24BD861D0029338B /* BasisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisViewController.swift; sourceTree = "<group>"; };
 		5CB3B8FA24BD8CAF0029338B /* BasisButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisButtonViewController.swift; sourceTree = "<group>"; };
-		5CD0F76B25067F610062F46F /* UITableviewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableviewExtension.swift; sourceTree = "<group>"; };
-		5CD0F76C25067F610062F46F /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		5CCE442F2509CF9C009A118C /* NoDataTableviewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataTableviewDemo.swift; sourceTree = "<group>"; };
+		5CCE44312509D20F009A118C /* CustomMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMethod.swift; sourceTree = "<group>"; };
+		5CCE4436250A0708009A118C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5CCE4437250A0708009A118C /* CustomCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellController.swift; sourceTree = "<group>"; };
+		5CCE443A250A1585009A118C /* NoDataTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataTableView.swift; sourceTree = "<group>"; };
 		5CD0F7702506800B0062F46F /* HZRefreshBackNormalFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HZRefreshBackNormalFooter.swift; sourceTree = "<group>"; };
 		5CD0F7712506800B0062F46F /* UIScrollViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewExtension.swift; sourceTree = "<group>"; };
 		5CD0F7722506800B0062F46F /* HZRefreshNormalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HZRefreshNormalHeader.swift; sourceTree = "<group>"; };
@@ -145,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				5C35AD4124BE988300AB63CB /* StringTool.swift */,
+				5CCE44312509D20F009A118C /* CustomMethod.swift */,
 			);
 			path = tool;
 			sourceTree = "<group>";
@@ -283,9 +290,9 @@
 			isa = PBXGroup;
 			children = (
 				5C35AD3E24BE964D00AB63CB /* BasisTableViewViewController.swift */,
-				5C35AD4324BEAC3000AB63CB /* DefaultTableviewVC.swift */,
-				5C35AD4524BEAC8100AB63CB /* CustomizeTableviewVC.swift */,
-				5C35AD4724BED61A00AB63CB /* CustomizeTableViewCell.swift */,
+				5CCE4435250A06C3009A118C /* 3_selfdefine-tableviewVC */,
+				5CCE4434250A0687009A118C /* 2_selfdefine-viewVC */,
+				5CCE4433250A062E009A118C /* 1_default */,
 			);
 			path = 7_tableView;
 			sourceTree = "<group>";
@@ -324,6 +331,32 @@
 			path = 11_layout;
 			sourceTree = "<group>";
 		};
+		5CCE4433250A062E009A118C /* 1_default */ = {
+			isa = PBXGroup;
+			children = (
+				5C35AD4324BEAC3000AB63CB /* DefaultTableviewVC.swift */,
+			);
+			path = 1_default;
+			sourceTree = "<group>";
+		};
+		5CCE4434250A0687009A118C /* 2_selfdefine-viewVC */ = {
+			isa = PBXGroup;
+			children = (
+				5C35AD4524BEAC8100AB63CB /* CustomizeTableviewVC.swift */,
+				5C35AD4724BED61A00AB63CB /* CustomizeTableViewCell.swift */,
+			);
+			path = "2_selfdefine-viewVC";
+			sourceTree = "<group>";
+		};
+		5CCE4435250A06C3009A118C /* 3_selfdefine-tableviewVC */ = {
+			isa = PBXGroup;
+			children = (
+				5CCE4437250A0708009A118C /* CustomCellController.swift */,
+				5CCE4436250A0708009A118C /* CustomTableViewCell.swift */,
+			);
+			path = "3_selfdefine-tableviewVC";
+			sourceTree = "<group>";
+		};
 		5CD0F76A25067F0F0062F46F /* 13_noData */ = {
 			isa = PBXGroup;
 			children = (
@@ -333,8 +366,6 @@
 				5CD0F7822506815F0062F46F /* tableviewDemo */,
 				5CD0F777250681490062F46F /* PlaceHolderView */,
 				5CD0F76F2506800B0062F46F /* Refresh */,
-				5CD0F76C25067F610062F46F /* UICollectionViewExtension.swift */,
-				5CD0F76B25067F610062F46F /* UITableviewExtension.swift */,
 			);
 			path = 13_noData;
 			sourceTree = "<group>";
@@ -364,6 +395,8 @@
 		5CD0F7822506815F0062F46F /* tableviewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5CCE443A250A1585009A118C /* NoDataTableView.swift */,
+				5CCE442F2509CF9C009A118C /* NoDataTableviewDemo.swift */,
 			);
 			path = tableviewDemo;
 			sourceTree = "<group>";
@@ -579,23 +612,26 @@
 				5C65414024F4E7C500278315 /* PhoneAlbum.swift in Sources */,
 				5C58734F24BD39A1008ABCAD /* AppDelegate.swift in Sources */,
 				5C35AD5524BF080700AB63CB /* SnapKitVC_4.swift in Sources */,
+				5CCE4438250A0708009A118C /* CustomTableViewCell.swift in Sources */,
 				5CD0F77D250681490062F46F /* HZPlaceHolderView.swift in Sources */,
 				5CD0F77F250681490062F46F /* UILabelExtension.swift in Sources */,
 				5C58735124BD39A1008ABCAD /* SceneDelegate.swift in Sources */,
+				5CCE443B250A1585009A118C /* NoDataTableView.swift in Sources */,
 				5C35AD4E24BEEA3400AB63CB /* SnapKitVC_1.swift in Sources */,
 				5C35AD4C24BEEA0400AB63CB /* BasisLayoutVC.swift in Sources */,
 				5CD0F7742506800B0062F46F /* UIScrollViewExtension.swift in Sources */,
 				5CB3B8EE24BD861D0029338B /* BasisViewController.swift in Sources */,
 				5C58735924BD39A1008ABCAD /* SwiftUIKit_Demo.xcdatamodeld in Sources */,
-				5CD0F76D25067F610062F46F /* UITableviewExtension.swift in Sources */,
+				5CCE4439250A0708009A118C /* CustomCellController.swift in Sources */,
 				5CD0F780250681490062F46F /* UITableviewExtension.swift in Sources */,
 				5C35AD3F24BE964D00AB63CB /* BasisTableViewViewController.swift in Sources */,
+				5CCE44322509D20F009A118C /* CustomMethod.swift in Sources */,
 				5C35AD4424BEAC3000AB63CB /* DefaultTableviewVC.swift in Sources */,
 				5CB3B8FB24BD8CAF0029338B /* BasisButtonViewController.swift in Sources */,
 				5C35AD5724BF081E00AB63CB /* SnapKitVC_5.swift in Sources */,
+				5CCE44302509CF9C009A118C /* NoDataTableviewDemo.swift in Sources */,
 				5CD0F781250681490062F46F /* UICollectionViewExtension.swift in Sources */,
 				5CD0F7752506800B0062F46F /* HZRefreshNormalHeader.swift in Sources */,
-				5CD0F76E25067F610062F46F /* UICollectionViewExtension.swift in Sources */,
 				5C35AD4224BE988300AB63CB /* StringTool.swift in Sources */,
 				5CD0F77E250681490062F46F /* UIButtonExtension.swift in Sources */,
 				5C35AD4824BED61A00AB63CB /* CustomizeTableViewCell.swift in Sources */,

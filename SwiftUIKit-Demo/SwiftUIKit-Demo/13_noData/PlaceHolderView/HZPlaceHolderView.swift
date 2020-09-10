@@ -14,7 +14,7 @@ public enum HZButtonLayoutType {
 }
 
 public class HZPlaceHolderView: UIView {
-
+    
     fileprivate var titleString: String?
     fileprivate var titleColor: UIColor = UIColor(red: 155.0 / 255.0, green: 162.0 / 255.0, blue: 181.0 / 255.0, alpha: 1.0)
     fileprivate var titleFont: UIFont = UIFont.systemFont(ofSize: 14.0)
@@ -88,7 +88,7 @@ public class HZPlaceHolderView: UIView {
     }
     
     fileprivate func setupUI() {
-
+        
         // 占位文字
         let titleLabel = UILabel(text: titleString, textColor: titleColor, font: titleFont, textAlignment: .center)
         titleLabel.numberOfLines = 0
@@ -120,7 +120,7 @@ public class HZPlaceHolderView: UIView {
             let previousButtonCenterX = NSLayoutConstraint(item: _previousButton, attribute: .centerX, relatedBy: .equal, toItem: self, attribute: .centerX, multiplier: 1.0, constant: (buttonLayoutType == .topBottom || nextButton == nil) ? 0 : -((buttonSpace + _buttonSize.width) / 2.0))
             let previousButtonTop = NSLayoutConstraint(item: _previousButton, attribute: .top, relatedBy: .equal, toItem: titleLabel, attribute: .bottom, multiplier: 1.0, constant: 25.0)
             addConstraints([previousButtonWidth, previousButtonHeight, previousButtonCenterX, previousButtonTop])
-
+            
             if let _nextButton = nextButton {
                 _nextButton.addTarget(self, action: #selector(clickNextButtonAction(_:)), for: .touchUpInside)
                 self.addSubview(_nextButton)
