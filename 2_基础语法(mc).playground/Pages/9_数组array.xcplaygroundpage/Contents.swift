@@ -45,4 +45,6 @@ for (index, value) in shoppingList.enumerated() {
     print("Item \(String(index + 1)): \(value)")
 }
 
+//7_数组的过滤
+
 

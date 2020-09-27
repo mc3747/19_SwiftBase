@@ -19,7 +19,7 @@ class BasisTableViewViewController: UIViewController {
             自己写分类/
             第三方:OC版本的 DZNEmptyDataSet
          3_无数据页面
-            类似界面预加载
+            类似界面预加载,骨架屏:https://github.com/daomoer/SkeletonDemo
             无数据
             无网络
             点击刷新
