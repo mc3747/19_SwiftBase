@@ -8,30 +8,48 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-  
+class ViewController: UITableViewController {
+    let titleArray:[String] = ["1_view","2_button","3_imageView","4_text","5_alert","6_stack",
+    "7_tableview","8_collectionView","9_tabBar","10_naviBar","11_layout","12_相册","13_无数据","14_九宫格"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let titleArray:[String] = ["1_view","2_button","3_imageView","4_text","5_alert","6_stack",
-        "7_tableview","8_collectionView","9_tabBar","10_naviBar","11_layout","12_相册","13_无数据"]
-        
-        for (index,title) in titleArray.enumerated() {
-            let screenSize = UIScreen.main.bounds.size
-            let jumpBtn = UIButton(type: .system)
-            jumpBtn.setTitle(title, for: .normal)
-            jumpBtn.frame = CGRect(x:  50, y: 100 + index * 45, width: Int(screenSize.width)  - 100, height: 40);
-            jumpBtn.backgroundColor = UIColor(red: 50 / 255, green: 123 / 255, blue:  255 / 255, alpha: 1)
-            jumpBtn.setTitleColor(UIColor.white, for: .normal)
-            //按钮绑定事件，点击时执行
-                //2种绑定事件的方法
-//            jumpBtn.addTarget(self, action: #selector(pageJump2), for: .touchUpInside)
-            let targetName = "pageJump" + String(index + 1)
-            jumpBtn.addTarget(self, action: Selector(targetName), for: .touchUpInside)
-            self.view.addSubview(jumpBtn)
-            
-        }
+//        for (index,title) in titleArray.enumerated() {
+//            let screenSize = UIScreen.main.bounds.size
+//            let jumpBtn = UIButton(type: .system)
+//            jumpBtn.setTitle(title, for: .normal)
+//            jumpBtn.frame = CGRect(x:  50, y: 100 + index * 45, width: Int(screenSize.width)  - 100, height: 40);
+//            jumpBtn.backgroundColor = UIColor(red: 50 / 255, green: 123 / 255, blue:  255 / 255, alpha: 1)
+//            jumpBtn.setTitleColor(UIColor.white, for: .normal)
+//            //按钮绑定事件，点击时执行
+//                //2种绑定事件的方法
+////            jumpBtn.addTarget(self, action: #selector(pageJump2), for: .touchUpInside)
+//            let targetName = "pageJump" + String(index + 1)
+//            jumpBtn.addTarget(self, action: Selector(targetName), for: .touchUpInside)
+//            self.view.addSubview(jumpBtn)
+//        }
     }
-    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return titleArray.count
+    }
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        var cell = tableView.dequeueReusableCell(withIdentifier: "kkk")
+        if cell == nil {
+            cell = UITableViewCell.init(style: .default, reuseIdentifier: "kkk")
+        }
+        cell?.textLabel?.text = titleArray[indexPath.row]
+        return cell!
+    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let targetName = "pageJump" + String(indexPath.row + 1)
+        let aSel : Selector = NSSelectorFromString(targetName)
+        //可以在主线程,和其他线程的区分
+//        self.performSelector(inBackground: aSel, with: self)
+        self.performSelector(onMainThread: aSel, with: self, waitUntilDone: true)
+    }
      //1_present到view
      @objc func pageJump1() {
          let destination = BasisViewController()
@@ -66,6 +84,9 @@ class ViewController: UIViewController {
           let destination = NoDataTableviewDemo()
           self.navigationController?.pushViewController(destination, animated: true)
       }
-    
+    @objc func pageJump14(){
+          let destination = GridController()
+          self.navigationController?.pushViewController(destination, animated: true)
+      }
 }
 

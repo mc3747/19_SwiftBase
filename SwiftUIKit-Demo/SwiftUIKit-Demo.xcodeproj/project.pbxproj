@@ -28,6 +28,10 @@
 		5C58736924BD39A6008ABCAD /* SwiftUIKit_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58736824BD39A6008ABCAD /* SwiftUIKit_DemoTests.swift */; };
 		5C58737424BD39A6008ABCAD /* SwiftUIKit_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58737324BD39A6008ABCAD /* SwiftUIKit_DemoUITests.swift */; };
 		5C65414024F4E7C500278315 /* PhoneAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65413F24F4E7C500278315 /* PhoneAlbum.swift */; };
+		5C98F735254825260062FDF7 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F734254825260062FDF7 /* GridView.swift */; };
+		5C98F73D254825330062FDF7 /* GridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F73C254825330062FDF7 /* GridController.swift */; };
+		5C98F748254826020062FDF7 /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F747254826020062FDF7 /* UnitView.swift */; };
+		5C98F74D2548430B0062FDF7 /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F74C2548430B0062FDF7 /* NumberExtension.swift */; };
 		5CB3B8EC24BD4B740029338B /* SelfDefinedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8EB24BD4B740029338B /* SelfDefinedView.swift */; };
 		5CB3B8EE24BD861D0029338B /* BasisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8ED24BD861D0029338B /* BasisViewController.swift */; };
 		5CB3B8FB24BD8CAF0029338B /* BasisButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8FA24BD8CAF0029338B /* BasisButtonViewController.swift */; };
@@ -94,6 +98,10 @@
 		5C58737324BD39A6008ABCAD /* SwiftUIKit_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIKit_DemoUITests.swift; sourceTree = "<group>"; };
 		5C58737524BD39A6008ABCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C65413F24F4E7C500278315 /* PhoneAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAlbum.swift; sourceTree = "<group>"; };
+		5C98F734254825260062FDF7 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		5C98F73C254825330062FDF7 /* GridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridController.swift; sourceTree = "<group>"; };
+		5C98F747254826020062FDF7 /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
+		5C98F74C2548430B0062FDF7 /* NumberExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
 		5CB3B8EB24BD4B740029338B /* SelfDefinedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDefinedView.swift; sourceTree = "<group>"; };
 		5CB3B8ED24BD861D0029338B /* BasisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisViewController.swift; sourceTree = "<group>"; };
 		5CB3B8FA24BD8CAF0029338B /* BasisButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisButtonViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +199,7 @@
 				5C58734E24BD39A1008ABCAD /* AppDelegate.swift */,
 				5C58735024BD39A1008ABCAD /* SceneDelegate.swift */,
 				5C58735224BD39A1008ABCAD /* ViewController.swift */,
+				5C98F733254824D30062FDF7 /* 14_GridView */,
 				5CD0F76A25067F0F0062F46F /* 13_noData */,
 				5C65401F24F4BFC800278315 /* manager */,
 				5C35AD4024BE979B00AB63CB /* tool */,
@@ -239,6 +248,17 @@
 				5C65413F24F4E7C500278315 /* PhoneAlbum.swift */,
 			);
 			path = manager;
+			sourceTree = "<group>";
+		};
+		5C98F733254824D30062FDF7 /* 14_GridView */ = {
+			isa = PBXGroup;
+			children = (
+				5C98F734254825260062FDF7 /* GridView.swift */,
+				5C98F73C254825330062FDF7 /* GridController.swift */,
+				5C98F747254826020062FDF7 /* UnitView.swift */,
+				5C98F74C2548430B0062FDF7 /* NumberExtension.swift */,
+			);
+			path = 14_GridView;
 			sourceTree = "<group>";
 		};
 		5CB3B8EF24BD86340029338B /* 1_view */ = {
@@ -611,6 +631,7 @@
 				5C35AD5124BF013B00AB63CB /* SnapKitVC_2.swift in Sources */,
 				5C65414024F4E7C500278315 /* PhoneAlbum.swift in Sources */,
 				5C58734F24BD39A1008ABCAD /* AppDelegate.swift in Sources */,
+				5C98F73D254825330062FDF7 /* GridController.swift in Sources */,
 				5C35AD5524BF080700AB63CB /* SnapKitVC_4.swift in Sources */,
 				5CCE4438250A0708009A118C /* CustomTableViewCell.swift in Sources */,
 				5CD0F77D250681490062F46F /* HZPlaceHolderView.swift in Sources */,
@@ -631,6 +652,9 @@
 				5C35AD5724BF081E00AB63CB /* SnapKitVC_5.swift in Sources */,
 				5CCE44302509CF9C009A118C /* NoDataTableviewDemo.swift in Sources */,
 				5CD0F781250681490062F46F /* UICollectionViewExtension.swift in Sources */,
+				5C98F74D2548430B0062FDF7 /* NumberExtension.swift in Sources */,
+				5C98F735254825260062FDF7 /* GridView.swift in Sources */,
+				5C98F748254826020062FDF7 /* UnitView.swift in Sources */,
 				5CD0F7752506800B0062F46F /* HZRefreshNormalHeader.swift in Sources */,
 				5C35AD4224BE988300AB63CB /* StringTool.swift in Sources */,
 				5CD0F77E250681490062F46F /* UIButtonExtension.swift in Sources */,
@@ -812,6 +836,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DVNLGP59Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftUIKit-Demo/phonoAlbum/FZAlbum/Carthage/Build/iOS",
@@ -834,6 +859,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DVNLGP59Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SwiftUIKit-Demo/phonoAlbum/FZAlbum/Carthage/Build/iOS",
