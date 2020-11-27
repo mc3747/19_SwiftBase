@@ -32,6 +32,7 @@
 		5C094C3124C047EA00BB2AFD /* RxSwift2_OperatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C3024C047EA00BB2AFD /* RxSwift2_OperatorVC.swift */; };
 		5C094C3324C0481300BB2AFD /* RxSwift3_UIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C3224C0481300BB2AFD /* RxSwift3_UIVC.swift */; };
 		5C094C3524C0483800BB2AFD /* RxSwift4_DemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C3424C0483800BB2AFD /* RxSwift4_DemoVC.swift */; };
+		5C18F00D256AC03200656D76 /* MultiThreadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18F00C256AC03200656D76 /* MultiThreadVC.swift */; };
 		EDD446F2DC9096F480C5F694 /* Pods_SwiftProject_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B589DBE8642637A462E18E0F /* Pods_SwiftProject_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		5C094C3024C047EA00BB2AFD /* RxSwift2_OperatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift2_OperatorVC.swift; sourceTree = "<group>"; };
 		5C094C3224C0481300BB2AFD /* RxSwift3_UIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift3_UIVC.swift; sourceTree = "<group>"; };
 		5C094C3424C0483800BB2AFD /* RxSwift4_DemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift4_DemoVC.swift; sourceTree = "<group>"; };
+		5C18F00C256AC03200656D76 /* MultiThreadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreadVC.swift; sourceTree = "<group>"; };
 		B589DBE8642637A462E18E0F /* Pods_SwiftProject_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C162D8342057DED7B821A40C /* Pods-SwiftProject-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-Demo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject-Demo/Pods-SwiftProject-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C43ED2CF34B02C75961D74CA /* Pods-SwiftProject-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-Demo.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject-Demo/Pods-SwiftProject-Demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 		5C094C0E24BFDFC800BB2AFD /* 3_DifficultPoint */ = {
 			isa = PBXGroup;
 			children = (
+				5C18F00B256ABF0D00656D76 /* multiThread */,
 				5C094C1724BFE2D100BB2AFD /* DifficultPointVC.swift */,
 			);
 			path = 3_DifficultPoint;
@@ -297,6 +300,14 @@
 				5C094C3424C0483800BB2AFD /* RxSwift4_DemoVC.swift */,
 			);
 			path = 2_RxSwift;
+			sourceTree = "<group>";
+		};
+		5C18F00B256ABF0D00656D76 /* multiThread */ = {
+			isa = PBXGroup;
+			children = (
+				5C18F00C256AC03200656D76 /* MultiThreadVC.swift */,
+			);
+			path = multiThread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -478,6 +489,7 @@
 				5C094C1624BFE2BD00BB2AFD /* DesignStyleVC.swift in Sources */,
 				5C094C1A24BFE2E700BB2AFD /* AdvancedPointVC.swift in Sources */,
 				5C094C1424BFE2A300BB2AFD /* BasisPointVC.swift in Sources */,
+				5C18F00D256AC03200656D76 /* MultiThreadVC.swift in Sources */,
 				5C094C2524C0049400BB2AFD /* CommonTableViewVC.swift in Sources */,
 				5C094C3324C0481300BB2AFD /* RxSwift3_UIVC.swift in Sources */,
 				5C094BDC24BFDB3100BB2AFD /* ViewController.swift in Sources */,

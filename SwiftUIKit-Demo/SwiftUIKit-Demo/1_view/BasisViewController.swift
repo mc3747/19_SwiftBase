@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BasisViewController: UIViewController {
+class BasisViewController: BaseViewController {
     
     var message: String?
     
@@ -27,7 +27,7 @@ class BasisViewController: UIViewController {
         
         //present的按钮
             initBtn()
-            print(message!)
+            
     }
     //初始化返回按钮，点击按钮返回主页面。
      func initBtn() {

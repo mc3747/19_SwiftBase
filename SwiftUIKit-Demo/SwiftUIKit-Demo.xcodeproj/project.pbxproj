@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C18488225709D780037662A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18488125709D780037662A /* BaseViewController.swift */; };
+		5C18488725709F580037662A /* MCSelfDefineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18488625709F580037662A /* MCSelfDefineVC.swift */; };
+		5C18488D2570AFF90037662A /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18488C2570AFF90037662A /* FrameView.swift */; };
 		5C35AD3F24BE964D00AB63CB /* BasisTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD3E24BE964D00AB63CB /* BasisTableViewViewController.swift */; };
 		5C35AD4224BE988300AB63CB /* StringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4124BE988300AB63CB /* StringTool.swift */; };
 		5C35AD4424BEAC3000AB63CB /* DefaultTableviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C35AD4324BEAC3000AB63CB /* DefaultTableviewVC.swift */; };
@@ -71,6 +74,9 @@
 /* Begin PBXFileReference section */
 		43010B1B0DFBAD83AE2DD065 /* Pods_SwiftUIKit_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIKit_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B6ACC400F0BDCE84583449 /* Pods-SwiftUIKit-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIKit-Demo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIKit-Demo/Pods-SwiftUIKit-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		5C18488125709D780037662A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5C18488625709F580037662A /* MCSelfDefineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCSelfDefineVC.swift; sourceTree = "<group>"; };
+		5C18488C2570AFF90037662A /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		5C35AD3E24BE964D00AB63CB /* BasisTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisTableViewViewController.swift; sourceTree = "<group>"; };
 		5C35AD4124BE988300AB63CB /* StringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
 		5C35AD4324BEAC3000AB63CB /* DefaultTableviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableviewVC.swift; sourceTree = "<group>"; };
@@ -155,6 +161,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5C18487C257091120037662A /* 15_自定义view */ = {
+			isa = PBXGroup;
+			children = (
+				5C18488625709F580037662A /* MCSelfDefineVC.swift */,
+				5C18488C2570AFF90037662A /* FrameView.swift */,
+			);
+			path = "15_自定义view";
+			sourceTree = "<group>";
+		};
+		5C18487D257092C00037662A /* 16_绘图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "16_绘图";
+			sourceTree = "<group>";
+		};
+		5C18488B2570A3EF0037662A /* 17_快速写UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "17_快速写UI";
+			sourceTree = "<group>";
+		};
 		5C35AD4024BE979B00AB63CB /* tool */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,13 +225,17 @@
 		5C58734D24BD39A1008ABCAD /* SwiftUIKit-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				5C35AD4024BE979B00AB63CB /* tool */,
+				5C65401F24F4BFC800278315 /* manager */,
 				5C58734E24BD39A1008ABCAD /* AppDelegate.swift */,
 				5C58735024BD39A1008ABCAD /* SceneDelegate.swift */,
 				5C58735224BD39A1008ABCAD /* ViewController.swift */,
+				5C18488125709D780037662A /* BaseViewController.swift */,
+				5C18488B2570A3EF0037662A /* 17_快速写UI */,
+				5C18487D257092C00037662A /* 16_绘图 */,
+				5C18487C257091120037662A /* 15_自定义view */,
 				5C98F733254824D30062FDF7 /* 14_GridView */,
 				5CD0F76A25067F0F0062F46F /* 13_noData */,
-				5C65401F24F4BFC800278315 /* manager */,
-				5C35AD4024BE979B00AB63CB /* tool */,
 				5C35AD4F24BEEF9C00AB63CB /* 12_sizeAdaptation */,
 				5CB3B8F924BD8B8F0029338B /* 11_layout */,
 				5CB3B8F824BD8B1C0029338B /* 10_naviBar */,
@@ -637,11 +670,14 @@
 				5CD0F77D250681490062F46F /* HZPlaceHolderView.swift in Sources */,
 				5CD0F77F250681490062F46F /* UILabelExtension.swift in Sources */,
 				5C58735124BD39A1008ABCAD /* SceneDelegate.swift in Sources */,
+				5C18488225709D780037662A /* BaseViewController.swift in Sources */,
 				5CCE443B250A1585009A118C /* NoDataTableView.swift in Sources */,
 				5C35AD4E24BEEA3400AB63CB /* SnapKitVC_1.swift in Sources */,
 				5C35AD4C24BEEA0400AB63CB /* BasisLayoutVC.swift in Sources */,
+				5C18488D2570AFF90037662A /* FrameView.swift in Sources */,
 				5CD0F7742506800B0062F46F /* UIScrollViewExtension.swift in Sources */,
 				5CB3B8EE24BD861D0029338B /* BasisViewController.swift in Sources */,
+				5C18488725709F580037662A /* MCSelfDefineVC.swift in Sources */,
 				5C58735924BD39A1008ABCAD /* SwiftUIKit_Demo.xcdatamodeld in Sources */,
 				5CCE4439250A0708009A118C /* CustomCellController.swift in Sources */,
 				5CD0F780250681490062F46F /* UITableviewExtension.swift in Sources */,

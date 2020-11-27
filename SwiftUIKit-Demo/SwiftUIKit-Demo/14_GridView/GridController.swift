@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class GridController: UIViewController {
+class GridController: BaseViewController {
 
     let currentView = GridView(frame: CGRect.zero)
     

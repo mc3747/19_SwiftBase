@@ -9,25 +9,16 @@
 import UIKit
 
 class ViewController: UITableViewController {
+    
     let titleArray:[String] = ["1_view","2_button","3_imageView","4_text","5_alert","6_stack",
-    "7_tableview","8_collectionView","9_tabBar","10_naviBar","11_layout","12_相册","13_无数据","14_九宫格"]
+                               "7_tableview","8_collectionView","9_tabBar","10_naviBar","11_layout","12_尺寸适配","13_无数据","14_九宫格"]
+    
+    let vcNameArray:[String] = ["BasisViewController","BasisButtonViewController","","","","",
+                                "BasisTableViewViewController","","","","BasisLayoutVC","","NoDataTableviewDemo","GridController"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        for (index,title) in titleArray.enumerated() {
-//            let screenSize = UIScreen.main.bounds.size
-//            let jumpBtn = UIButton(type: .system)
-//            jumpBtn.setTitle(title, for: .normal)
-//            jumpBtn.frame = CGRect(x:  50, y: 100 + index * 45, width: Int(screenSize.width)  - 100, height: 40);
-//            jumpBtn.backgroundColor = UIColor(red: 50 / 255, green: 123 / 255, blue:  255 / 255, alpha: 1)
-//            jumpBtn.setTitleColor(UIColor.white, for: .normal)
-//            //按钮绑定事件，点击时执行
-//                //2种绑定事件的方法
-////            jumpBtn.addTarget(self, action: #selector(pageJump2), for: .touchUpInside)
-//            let targetName = "pageJump" + String(index + 1)
-//            jumpBtn.addTarget(self, action: Selector(targetName), for: .touchUpInside)
-//            self.view.addSubview(jumpBtn)
-//        }
+        
     }
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -44,49 +35,20 @@ class ViewController: UITableViewController {
         return cell!
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let targetName = "pageJump" + String(indexPath.row + 1)
-        let aSel : Selector = NSSelectorFromString(targetName)
-        //可以在主线程,和其他线程的区分
-//        self.performSelector(inBackground: aSel, with: self)
-        self.performSelector(onMainThread: aSel, with: self, waitUntilDone: true)
+   
+        var name = Bundle.main.object(forInfoDictionaryKey: "CFBundleExecutable") as? String//这是获取项目的名称，
+        /**
+         * 如果你的工程名字中带有“-” 符号  需要加上 replacingOccurrences(of: "-", with: "_") 这句代码把“-” 替换掉  不然还会报错 要不然系统会自动替换掉 这样就不是你原来的包名了 如果不包含“-”  这句代码 可以不加
+         */
+        name = name?.replacingOccurrences(of: "-", with: "_")
+        let className = name! + "." + vcNameArray[indexPath.row]
+        guard let cls = NSClassFromString(className) as? UIViewController.Type else{
+            fatalError("类名错误")
+        }
+        let vc = cls.init()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
-     //1_present到view
-     @objc func pageJump1() {
-         let destination = BasisViewController()
-         destination.message = "传递的信息"
-         self.present(destination, animated: true, completion: nil)
-     }
     
-    //2_push到button
-     @objc func pageJump2() {
-          let destination = BasisButtonViewController()
-          self.navigationController?.pushViewController(destination, animated: true)
-    }
-    //7_push到button
-    @objc func pageJump7() {
-//           let str = "BasisTableViewViewController"
-//            if let vc=str.stringToVC(){
-//                self.present(vc, animated: true, completion: nil)
-//           }
-         let destination = BasisTableViewViewController()
-         self.navigationController?.pushViewController(destination, animated: true)
-     }
-    //11_push到layout
-    @objc func pageJump11(){
-        let destination = BasisLayoutVC()
-        self.navigationController?.pushViewController(destination, animated: true)
-    }
-    @objc func pageJump12(){
-        let destination = PhoneAlbum()
-        self.navigationController?.pushViewController(destination, animated: true)
-    }
-    @objc func pageJump13(){
-          let destination = NoDataTableviewDemo()
-          self.navigationController?.pushViewController(destination, animated: true)
-      }
-    @objc func pageJump14(){
-          let destination = GridController()
-          self.navigationController?.pushViewController(destination, animated: true)
-      }
+    
 }
 

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-class NoDataTableviewDemo: UIViewController,UITableViewDelegate,UITableViewDataSource,HZTableViewPlaceHolderDelegate {
+class NoDataTableviewDemo: BaseViewController,UITableViewDelegate,UITableViewDataSource,HZTableViewPlaceHolderDelegate {
     
     //遵守协议,返回
     func makePlaceHolderView() -> UIView? {

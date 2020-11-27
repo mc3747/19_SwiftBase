@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BasisButtonViewController: UIViewController {
+class BasisButtonViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
