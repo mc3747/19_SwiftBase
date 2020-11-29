@@ -30,6 +30,30 @@
 		5C58735E24BD39A5008ABCAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C58735C24BD39A5008ABCAD /* LaunchScreen.storyboard */; };
 		5C58736924BD39A6008ABCAD /* SwiftUIKit_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58736824BD39A6008ABCAD /* SwiftUIKit_DemoTests.swift */; };
 		5C58737424BD39A6008ABCAD /* SwiftUIKit_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C58737324BD39A6008ABCAD /* SwiftUIKit_DemoUITests.swift */; };
+		5C5D843F2573D921003EE066 /* SnapkitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D843E2573D921003EE066 /* SnapkitView.swift */; };
+		5C5D84442573DB1D003EE066 /* DrawRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84432573DB1D003EE066 /* DrawRectView.swift */; };
+		5C5D84492573DBBB003EE066 /* DrawingViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84482573DBBB003EE066 /* DrawingViewVC.swift */; };
+		5C5D84692573DC0D003EE066 /* HistogramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D844E2573DC0C003EE066 /* HistogramVC.swift */; };
+		5C5D846A2573DC0D003EE066 /* PieChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D844F2573DC0C003EE066 /* PieChartVC.swift */; };
+		5C5D846B2573DC0D003EE066 /* TripleBezierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84502573DC0C003EE066 /* TripleBezierVC.swift */; };
+		5C5D846C2573DC0D003EE066 /* LayerAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84512573DC0C003EE066 /* LayerAnimationVC.swift */; };
+		5C5D846D2573DC0D003EE066 /* CalculationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84522573DC0C003EE066 /* CalculationVC.swift */; };
+		5C5D846E2573DC0D003EE066 /* TextLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84532573DC0C003EE066 /* TextLayerVC.swift */; };
+		5C5D846F2573DC0D003EE066 /* IrregularGradientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84542573DC0C003EE066 /* IrregularGradientVC.swift */; };
+		5C5D84702573DC0D003EE066 /* QuadRaticBezierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84552573DC0C003EE066 /* QuadRaticBezierVC.swift */; };
+		5C5D84712573DC0D003EE066 /* SpiderWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84562573DC0C003EE066 /* SpiderWebVC.swift */; };
+		5C5D84722573DC0D003EE066 /* UIColor+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84582573DC0C003EE066 /* UIColor+Category.swift */; };
+		5C5D84732573DC0D003EE066 /* PaintLineCapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D845B2573DC0C003EE066 /* PaintLineCapView.swift */; };
+		5C5D84742573DC0D003EE066 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D845D2573DC0D003EE066 /* PieChartView.swift */; };
+		5C5D84752573DC0D003EE066 /* PaintRoundedRectangleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D845F2573DC0D003EE066 /* PaintRoundedRectangleVC.swift */; };
+		5C5D84772573DC0D003EE066 /* PaintTrajectoryViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84612573DC0D003EE066 /* PaintTrajectoryViewVC.swift */; };
+		5C5D84782573DC0D003EE066 /* PaintDottedLineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84622573DC0D003EE066 /* PaintDottedLineVC.swift */; };
+		5C5D84792573DC0D003EE066 /* PaintTriangleViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84632573DC0D003EE066 /* PaintTriangleViewVC.swift */; };
+		5C5D847A2573DC0D003EE066 /* PaintShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84642573DC0D003EE066 /* PaintShadowView.swift */; };
+		5C5D847B2573DC0D003EE066 /* MacroDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84652573DC0D003EE066 /* MacroDefinition.swift */; };
+		5C5D847C2573DC0D003EE066 /* PaintLineViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84662573DC0D003EE066 /* PaintLineViewVC.swift */; };
+		5C5D847D2573DC0D003EE066 /* PaintLineCapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84672573DC0D003EE066 /* PaintLineCapVC.swift */; };
+		5C5D847E2573DC0D003EE066 /* PaintCilcleViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84682573DC0D003EE066 /* PaintCilcleViewVC.swift */; };
 		5C65414024F4E7C500278315 /* PhoneAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65413F24F4E7C500278315 /* PhoneAlbum.swift */; };
 		5C98F735254825260062FDF7 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F734254825260062FDF7 /* GridView.swift */; };
 		5C98F73D254825330062FDF7 /* GridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F73C254825330062FDF7 /* GridController.swift */; };
@@ -103,6 +127,30 @@
 		5C58736F24BD39A6008ABCAD /* SwiftUIKit-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUIKit-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C58737324BD39A6008ABCAD /* SwiftUIKit_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIKit_DemoUITests.swift; sourceTree = "<group>"; };
 		5C58737524BD39A6008ABCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5D843E2573D921003EE066 /* SnapkitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapkitView.swift; sourceTree = "<group>"; };
+		5C5D84432573DB1D003EE066 /* DrawRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawRectView.swift; sourceTree = "<group>"; };
+		5C5D84482573DBBB003EE066 /* DrawingViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewVC.swift; sourceTree = "<group>"; };
+		5C5D844E2573DC0C003EE066 /* HistogramVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistogramVC.swift; sourceTree = "<group>"; };
+		5C5D844F2573DC0C003EE066 /* PieChartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartVC.swift; sourceTree = "<group>"; };
+		5C5D84502573DC0C003EE066 /* TripleBezierVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleBezierVC.swift; sourceTree = "<group>"; };
+		5C5D84512573DC0C003EE066 /* LayerAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerAnimationVC.swift; sourceTree = "<group>"; };
+		5C5D84522573DC0C003EE066 /* CalculationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationVC.swift; sourceTree = "<group>"; };
+		5C5D84532573DC0C003EE066 /* TextLayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextLayerVC.swift; sourceTree = "<group>"; };
+		5C5D84542573DC0C003EE066 /* IrregularGradientVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IrregularGradientVC.swift; sourceTree = "<group>"; };
+		5C5D84552573DC0C003EE066 /* QuadRaticBezierVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadRaticBezierVC.swift; sourceTree = "<group>"; };
+		5C5D84562573DC0C003EE066 /* SpiderWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpiderWebVC.swift; sourceTree = "<group>"; };
+		5C5D84582573DC0C003EE066 /* UIColor+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Category.swift"; sourceTree = "<group>"; };
+		5C5D845B2573DC0C003EE066 /* PaintLineCapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintLineCapView.swift; sourceTree = "<group>"; };
+		5C5D845D2573DC0D003EE066 /* PieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		5C5D845F2573DC0D003EE066 /* PaintRoundedRectangleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintRoundedRectangleVC.swift; sourceTree = "<group>"; };
+		5C5D84612573DC0D003EE066 /* PaintTrajectoryViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintTrajectoryViewVC.swift; sourceTree = "<group>"; };
+		5C5D84622573DC0D003EE066 /* PaintDottedLineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintDottedLineVC.swift; sourceTree = "<group>"; };
+		5C5D84632573DC0D003EE066 /* PaintTriangleViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintTriangleViewVC.swift; sourceTree = "<group>"; };
+		5C5D84642573DC0D003EE066 /* PaintShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintShadowView.swift; sourceTree = "<group>"; };
+		5C5D84652573DC0D003EE066 /* MacroDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroDefinition.swift; sourceTree = "<group>"; };
+		5C5D84662573DC0D003EE066 /* PaintLineViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintLineViewVC.swift; sourceTree = "<group>"; };
+		5C5D84672573DC0D003EE066 /* PaintLineCapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintLineCapVC.swift; sourceTree = "<group>"; };
+		5C5D84682573DC0D003EE066 /* PaintCilcleViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintCilcleViewVC.swift; sourceTree = "<group>"; };
 		5C65413F24F4E7C500278315 /* PhoneAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAlbum.swift; sourceTree = "<group>"; };
 		5C98F734254825260062FDF7 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		5C98F73C254825330062FDF7 /* GridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridController.swift; sourceTree = "<group>"; };
@@ -166,6 +214,8 @@
 			children = (
 				5C18488625709F580037662A /* MCSelfDefineVC.swift */,
 				5C18488C2570AFF90037662A /* FrameView.swift */,
+				5C5D843E2573D921003EE066 /* SnapkitView.swift */,
+				5C5D84432573DB1D003EE066 /* DrawRectView.swift */,
 			);
 			path = "15_自定义view";
 			sourceTree = "<group>";
@@ -173,6 +223,11 @@
 		5C18487D257092C00037662A /* 16_绘图 */ = {
 			isa = PBXGroup;
 			children = (
+				5C5D84482573DBBB003EE066 /* DrawingViewVC.swift */,
+				5C5D844D2573DC0C003EE066 /* ComplexBezierPoint */,
+				5C5D84592573DC0C003EE066 /* ComplexBezierView */,
+				5C5D845E2573DC0D003EE066 /* SimpleDraw */,
+				5C5D84572573DC0C003EE066 /* UIColor */,
 			);
 			path = "16_绘图";
 			sourceTree = "<group>";
@@ -273,6 +328,71 @@
 				5C58737524BD39A6008ABCAD /* Info.plist */,
 			);
 			path = "SwiftUIKit-DemoUITests";
+			sourceTree = "<group>";
+		};
+		5C5D844D2573DC0C003EE066 /* ComplexBezierPoint */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D844E2573DC0C003EE066 /* HistogramVC.swift */,
+				5C5D844F2573DC0C003EE066 /* PieChartVC.swift */,
+				5C5D84502573DC0C003EE066 /* TripleBezierVC.swift */,
+				5C5D84512573DC0C003EE066 /* LayerAnimationVC.swift */,
+				5C5D84522573DC0C003EE066 /* CalculationVC.swift */,
+				5C5D84532573DC0C003EE066 /* TextLayerVC.swift */,
+				5C5D84542573DC0C003EE066 /* IrregularGradientVC.swift */,
+				5C5D84552573DC0C003EE066 /* QuadRaticBezierVC.swift */,
+				5C5D84562573DC0C003EE066 /* SpiderWebVC.swift */,
+			);
+			path = ComplexBezierPoint;
+			sourceTree = "<group>";
+		};
+		5C5D84572573DC0C003EE066 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D84582573DC0C003EE066 /* UIColor+Category.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		5C5D84592573DC0C003EE066 /* ComplexBezierView */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D845A2573DC0C003EE066 /* PaintLineCapView */,
+				5C5D845C2573DC0D003EE066 /* PieChartView */,
+			);
+			path = ComplexBezierView;
+			sourceTree = "<group>";
+		};
+		5C5D845A2573DC0C003EE066 /* PaintLineCapView */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D845B2573DC0C003EE066 /* PaintLineCapView.swift */,
+			);
+			path = PaintLineCapView;
+			sourceTree = "<group>";
+		};
+		5C5D845C2573DC0D003EE066 /* PieChartView */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D845D2573DC0D003EE066 /* PieChartView.swift */,
+			);
+			path = PieChartView;
+			sourceTree = "<group>";
+		};
+		5C5D845E2573DC0D003EE066 /* SimpleDraw */ = {
+			isa = PBXGroup;
+			children = (
+				5C5D845F2573DC0D003EE066 /* PaintRoundedRectangleVC.swift */,
+				5C5D84612573DC0D003EE066 /* PaintTrajectoryViewVC.swift */,
+				5C5D84622573DC0D003EE066 /* PaintDottedLineVC.swift */,
+				5C5D84632573DC0D003EE066 /* PaintTriangleViewVC.swift */,
+				5C5D84642573DC0D003EE066 /* PaintShadowView.swift */,
+				5C5D84652573DC0D003EE066 /* MacroDefinition.swift */,
+				5C5D84662573DC0D003EE066 /* PaintLineViewVC.swift */,
+				5C5D84672573DC0D003EE066 /* PaintLineCapVC.swift */,
+				5C5D84682573DC0D003EE066 /* PaintCilcleViewVC.swift */,
+			);
+			path = SimpleDraw;
 			sourceTree = "<group>";
 		};
 		5C65401F24F4BFC800278315 /* manager */ = {
@@ -659,42 +779,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5D84742573DC0D003EE066 /* PieChartView.swift in Sources */,
+				5C5D847D2573DC0D003EE066 /* PaintLineCapVC.swift in Sources */,
+				5C5D846A2573DC0D003EE066 /* PieChartVC.swift in Sources */,
 				5C58735324BD39A1008ABCAD /* ViewController.swift in Sources */,
 				5C35AD5324BF015200AB63CB /* SnapKitVC_3.swift in Sources */,
+				5C5D846B2573DC0D003EE066 /* TripleBezierVC.swift in Sources */,
+				5C5D846D2573DC0D003EE066 /* CalculationVC.swift in Sources */,
 				5C35AD5124BF013B00AB63CB /* SnapKitVC_2.swift in Sources */,
+				5C5D84752573DC0D003EE066 /* PaintRoundedRectangleVC.swift in Sources */,
 				5C65414024F4E7C500278315 /* PhoneAlbum.swift in Sources */,
+				5C5D846E2573DC0D003EE066 /* TextLayerVC.swift in Sources */,
 				5C58734F24BD39A1008ABCAD /* AppDelegate.swift in Sources */,
 				5C98F73D254825330062FDF7 /* GridController.swift in Sources */,
 				5C35AD5524BF080700AB63CB /* SnapKitVC_4.swift in Sources */,
 				5CCE4438250A0708009A118C /* CustomTableViewCell.swift in Sources */,
+				5C5D84782573DC0D003EE066 /* PaintDottedLineVC.swift in Sources */,
 				5CD0F77D250681490062F46F /* HZPlaceHolderView.swift in Sources */,
 				5CD0F77F250681490062F46F /* UILabelExtension.swift in Sources */,
 				5C58735124BD39A1008ABCAD /* SceneDelegate.swift in Sources */,
+				5C5D84722573DC0D003EE066 /* UIColor+Category.swift in Sources */,
 				5C18488225709D780037662A /* BaseViewController.swift in Sources */,
 				5CCE443B250A1585009A118C /* NoDataTableView.swift in Sources */,
+				5C5D846C2573DC0D003EE066 /* LayerAnimationVC.swift in Sources */,
 				5C35AD4E24BEEA3400AB63CB /* SnapKitVC_1.swift in Sources */,
 				5C35AD4C24BEEA0400AB63CB /* BasisLayoutVC.swift in Sources */,
+				5C5D84442573DB1D003EE066 /* DrawRectView.swift in Sources */,
+				5C5D84492573DBBB003EE066 /* DrawingViewVC.swift in Sources */,
 				5C18488D2570AFF90037662A /* FrameView.swift in Sources */,
+				5C5D847C2573DC0D003EE066 /* PaintLineViewVC.swift in Sources */,
 				5CD0F7742506800B0062F46F /* UIScrollViewExtension.swift in Sources */,
+				5C5D843F2573D921003EE066 /* SnapkitView.swift in Sources */,
 				5CB3B8EE24BD861D0029338B /* BasisViewController.swift in Sources */,
 				5C18488725709F580037662A /* MCSelfDefineVC.swift in Sources */,
 				5C58735924BD39A1008ABCAD /* SwiftUIKit_Demo.xcdatamodeld in Sources */,
 				5CCE4439250A0708009A118C /* CustomCellController.swift in Sources */,
 				5CD0F780250681490062F46F /* UITableviewExtension.swift in Sources */,
+				5C5D847B2573DC0D003EE066 /* MacroDefinition.swift in Sources */,
 				5C35AD3F24BE964D00AB63CB /* BasisTableViewViewController.swift in Sources */,
 				5CCE44322509D20F009A118C /* CustomMethod.swift in Sources */,
 				5C35AD4424BEAC3000AB63CB /* DefaultTableviewVC.swift in Sources */,
 				5CB3B8FB24BD8CAF0029338B /* BasisButtonViewController.swift in Sources */,
+				5C5D84712573DC0D003EE066 /* SpiderWebVC.swift in Sources */,
 				5C35AD5724BF081E00AB63CB /* SnapKitVC_5.swift in Sources */,
 				5CCE44302509CF9C009A118C /* NoDataTableviewDemo.swift in Sources */,
 				5CD0F781250681490062F46F /* UICollectionViewExtension.swift in Sources */,
+				5C5D847E2573DC0D003EE066 /* PaintCilcleViewVC.swift in Sources */,
 				5C98F74D2548430B0062FDF7 /* NumberExtension.swift in Sources */,
+				5C5D84772573DC0D003EE066 /* PaintTrajectoryViewVC.swift in Sources */,
+				5C5D84702573DC0D003EE066 /* QuadRaticBezierVC.swift in Sources */,
 				5C98F735254825260062FDF7 /* GridView.swift in Sources */,
+				5C5D84792573DC0D003EE066 /* PaintTriangleViewVC.swift in Sources */,
+				5C5D84692573DC0D003EE066 /* HistogramVC.swift in Sources */,
+				5C5D847A2573DC0D003EE066 /* PaintShadowView.swift in Sources */,
 				5C98F748254826020062FDF7 /* UnitView.swift in Sources */,
+				5C5D84732573DC0D003EE066 /* PaintLineCapView.swift in Sources */,
 				5CD0F7752506800B0062F46F /* HZRefreshNormalHeader.swift in Sources */,
 				5C35AD4224BE988300AB63CB /* StringTool.swift in Sources */,
 				5CD0F77E250681490062F46F /* UIButtonExtension.swift in Sources */,
 				5C35AD4824BED61A00AB63CB /* CustomizeTableViewCell.swift in Sources */,
+				5C5D846F2573DC0D003EE066 /* IrregularGradientVC.swift in Sources */,
 				5CB3B8EC24BD4B740029338B /* SelfDefinedView.swift in Sources */,
 				5CD0F7732506800B0062F46F /* HZRefreshBackNormalFooter.swift in Sources */,
 				5C35AD4624BEAC8100AB63CB /* CustomizeTableviewVC.swift in Sources */,

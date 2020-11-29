@@ -13,7 +13,7 @@ class FrameView: UIView {
     private var isFirstLayout: Bool = true
     private var containerView : UIView = UIView()
     
-    //MARK: - init
+    //MARK: - 1_init
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -22,13 +22,14 @@ class FrameView: UIView {
         super.init(coder: aDecoder)
         commonInit()
     }
-    //MARK: - private method
+    //MARK: - 2_private method
     ///公共初始化(只创建，不管位置，这里不要调用self的布局属性，是不准确的)
     fileprivate func commonInit() -> Void {
         containerView.backgroundColor = UIColor.yellow
         self.addSubview(containerView)
     }
     
+    //MARK: - 3_private method
     override func layoutSubviews() {
         super.layoutSubviews()
         if isFirstLayout{ //保证只初始化布局一次

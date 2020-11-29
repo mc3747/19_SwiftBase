@@ -16,6 +16,11 @@ class BasisPointVC: UIViewController {
         super.viewDidLoad()
 
          self.title = "基础"
+        //属性
+        
+        //1.初始化方法
+        //2.传值方法
+        //3.定时器
     }
     
 
