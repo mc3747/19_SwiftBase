@@ -15,12 +15,12 @@ import UIKit
      信息采集
      
 */
-class AdvancedPointVC: UIViewController {
+class AdvancedPointVC: CommonTableViewVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "拔高"
-    }
+            }
     
 
     /*

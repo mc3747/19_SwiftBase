@@ -17,12 +17,13 @@ import UIKit
     
     
 */
-class DifficultPointVC: UIViewController {
+class DifficultPointVC: CommonTableViewVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
          self.title = "难点"
-        
+        self.titleItems = ["多线程","定时器"]
+        self.vcItems = ["MultiThreadVC","TimerSummaryVC"]
     }
     
 

@@ -84,6 +84,8 @@ struct CompactRect {
 //MARK: - 3.1属性观察器
     //willSet 在新的值被设置之前调用
     //didSet 在新的值被设置之后调用
+    //willSet可以带一个newName的参数，没有的话，该参数默认命名为newValue。
+    //didSet可以带一个oldName的参数，表示旧的属性，不带的话默认命名为oldValue。
 class StepCounter {
     var totalSteps: Int = 0 {
         willSet(newTotalSteps) {

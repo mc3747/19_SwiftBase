@@ -10,7 +10,7 @@ import UIKit
 /*
  
 */
-class BasisPointVC: UIViewController {
+class BasisPointVC: CommonTableViewVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,7 +8,12 @@
 
 import Foundation
 import UIKit
-class MultiThreadVC: UIViewController {
+class MultiThreadVC: CommonViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        GCDTest1()
+        GCDTest2()
+    }
     // MARK: - 1_开线程异步执行完耗时代码，返回主线程刷新UI
     func GCDTest1() {
             DispatchQueue.global().async {//并行、异步

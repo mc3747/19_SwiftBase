@@ -14,13 +14,15 @@ class MCSelfDefineVC: BaseViewController {
         
         //2_snapkit自定义
         
-        //3_xib
+        //3_snapkit带有滚动的scrollview
         
-        //4_drawResct方法
+        //4_xib
+        
+        //5_drawResct方法
             //使用Quartz 2D中的函数来手动执行绘画
             //使用drawResct,调用setNeedsDisplay
         
-        //5_CALayer方法
+        //6_CALayer方法
             //修改对应layer的属性，比如颜色,
             //CALayer的属性变化默认会有动画
             //使用layoutSubviews方法,setNeedsLayout方法

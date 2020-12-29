@@ -34,6 +34,10 @@
 		5C094C3524C0483800BB2AFD /* RxSwift4_DemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094C3424C0483800BB2AFD /* RxSwift4_DemoVC.swift */; };
 		5C18F00D256AC03200656D76 /* MultiThreadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18F00C256AC03200656D76 /* MultiThreadVC.swift */; };
 		5C5D848E2573E7B3003EE066 /* PropertyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D848D2573E7B3003EE066 /* PropertyVC.swift */; };
+		5CFA3B832598649B006CB148 /* TimerSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA3B822598649B006CB148 /* TimerSummaryVC.swift */; };
+		5CFA3B8B25995938006CB148 /* MCGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA3B8A25995938006CB148 /* MCGCDTimer.swift */; };
+		5CFA3B9125995B12006CB148 /* ZJKillTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA3B8F25995B11006CB148 /* ZJKillTimer.swift */; };
+		5CFA3B9225995B12006CB148 /* ZJTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA3B9025995B11006CB148 /* ZJTimer.swift */; };
 		EDD446F2DC9096F480C5F694 /* Pods_SwiftProject_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B589DBE8642637A462E18E0F /* Pods_SwiftProject_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +92,10 @@
 		5C094C3424C0483800BB2AFD /* RxSwift4_DemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift4_DemoVC.swift; sourceTree = "<group>"; };
 		5C18F00C256AC03200656D76 /* MultiThreadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiThreadVC.swift; sourceTree = "<group>"; };
 		5C5D848D2573E7B3003EE066 /* PropertyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyVC.swift; sourceTree = "<group>"; };
+		5CFA3B822598649B006CB148 /* TimerSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSummaryVC.swift; sourceTree = "<group>"; };
+		5CFA3B8A25995938006CB148 /* MCGCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCGCDTimer.swift; sourceTree = "<group>"; };
+		5CFA3B8F25995B11006CB148 /* ZJKillTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJKillTimer.swift; sourceTree = "<group>"; };
+		5CFA3B9025995B11006CB148 /* ZJTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJTimer.swift; sourceTree = "<group>"; };
 		B589DBE8642637A462E18E0F /* Pods_SwiftProject_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProject_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C162D8342057DED7B821A40C /* Pods-SwiftProject-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-Demo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProject-Demo/Pods-SwiftProject-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		C43ED2CF34B02C75961D74CA /* Pods-SwiftProject-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject-Demo.release.xcconfig"; path = "Target Support Files/Pods-SwiftProject-Demo/Pods-SwiftProject-Demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -237,8 +245,9 @@
 		5C094C0E24BFDFC800BB2AFD /* 3_DifficultPoint */ = {
 			isa = PBXGroup;
 			children = (
-				5C18F00B256ABF0D00656D76 /* multiThread */,
 				5C094C1724BFE2D100BB2AFD /* DifficultPointVC.swift */,
+				5C18F00B256ABF0D00656D76 /* 1_多线程 */,
+				5CFA3B80259863E6006CB148 /* 2_定时器 */,
 			);
 			path = 3_DifficultPoint;
 			sourceTree = "<group>";
@@ -305,12 +314,12 @@
 			path = 2_RxSwift;
 			sourceTree = "<group>";
 		};
-		5C18F00B256ABF0D00656D76 /* multiThread */ = {
+		5C18F00B256ABF0D00656D76 /* 1_多线程 */ = {
 			isa = PBXGroup;
 			children = (
 				5C18F00C256AC03200656D76 /* MultiThreadVC.swift */,
 			);
-			path = multiThread;
+			path = "1_多线程";
 			sourceTree = "<group>";
 		};
 		5C5D848C2573E7A2003EE066 /* 1_属性 */ = {
@@ -319,6 +328,17 @@
 				5C5D848D2573E7B3003EE066 /* PropertyVC.swift */,
 			);
 			path = "1_属性";
+			sourceTree = "<group>";
+		};
+		5CFA3B80259863E6006CB148 /* 2_定时器 */ = {
+			isa = PBXGroup;
+			children = (
+				5CFA3B822598649B006CB148 /* TimerSummaryVC.swift */,
+				5CFA3B9025995B11006CB148 /* ZJTimer.swift */,
+				5CFA3B8F25995B11006CB148 /* ZJKillTimer.swift */,
+				5CFA3B8A25995938006CB148 /* MCGCDTimer.swift */,
+			);
+			path = "2_定时器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -497,6 +517,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C094C1C24BFE3A900BB2AFD /* CommonViewController.swift in Sources */,
+				5CFA3B832598649B006CB148 /* TimerSummaryVC.swift in Sources */,
 				5C094C1624BFE2BD00BB2AFD /* DesignStyleVC.swift in Sources */,
 				5C094C1A24BFE2E700BB2AFD /* AdvancedPointVC.swift in Sources */,
 				5C094C1424BFE2A300BB2AFD /* BasisPointVC.swift in Sources */,
@@ -505,6 +526,8 @@
 				5C094C3324C0481300BB2AFD /* RxSwift3_UIVC.swift in Sources */,
 				5C5D848E2573E7B3003EE066 /* PropertyVC.swift in Sources */,
 				5C094BDC24BFDB3100BB2AFD /* ViewController.swift in Sources */,
+				5CFA3B8B25995938006CB148 /* MCGCDTimer.swift in Sources */,
+				5CFA3B9225995B12006CB148 /* ZJTimer.swift in Sources */,
 				5C094C1824BFE2D100BB2AFD /* DifficultPointVC.swift in Sources */,
 				5C094BD824BFDB3100BB2AFD /* AppDelegate.swift in Sources */,
 				5C094C1E24BFE3C700BB2AFD /* CommonTabBarVC.swift in Sources */,
@@ -514,6 +537,7 @@
 				5C094BDA24BFDB3100BB2AFD /* SceneDelegate.swift in Sources */,
 				5C094C2324BFEA7700BB2AFD /* UIColor+Extension.swift in Sources */,
 				5C094C2924C0322D00BB2AFD /* DesignPatternVC.swift in Sources */,
+				5CFA3B9125995B12006CB148 /* ZJKillTimer.swift in Sources */,
 				5C094C3524C0483800BB2AFD /* RxSwift4_DemoVC.swift in Sources */,
 				5C094C3124C047EA00BB2AFD /* RxSwift2_OperatorVC.swift in Sources */,
 				5C094C2F24C047BB00BB2AFD /* RxSwift1_ConceptVC.swift in Sources */,
@@ -692,6 +716,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DVNLGP59Q;
 				INFOPLIST_FILE = "SwiftProject-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -710,6 +735,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DVNLGP59Q;
 				INFOPLIST_FILE = "SwiftProject-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
