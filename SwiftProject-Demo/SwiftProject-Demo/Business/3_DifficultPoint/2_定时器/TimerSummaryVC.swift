@@ -8,15 +8,16 @@
 
 import Foundation
 import UIKit
+@objc (TimerSummaryVC)
 class TimerSummaryVC: CommonViewController {
     lazy private var timerLabel:UILabel = {
-        $0.frame = CGRect(x: 100, y: 100, width: 100, height: 50)
+        $0.frame = CGRect(x: 100, y: 200, width: 200, height: 50)
         $0.backgroundColor = .orange
         return $0
     }(UILabel())
     
     lazy private var gcdLabel:UILabel = {
-        $0.frame = CGRect(x: 100, y: 100, width: 100, height: 50)
+        $0.frame = CGRect(x: 100, y: 300, width: 200, height: 50)
         $0.backgroundColor = .systemPink
         return $0
     }(UILabel())

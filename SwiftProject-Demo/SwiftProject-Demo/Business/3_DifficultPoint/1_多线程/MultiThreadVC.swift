@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+@objc (MultiThreadVC)
 class MultiThreadVC: CommonViewController {
     override func viewDidLoad() {
         super.viewDidLoad()

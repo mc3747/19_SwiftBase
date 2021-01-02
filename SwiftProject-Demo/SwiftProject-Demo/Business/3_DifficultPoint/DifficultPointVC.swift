@@ -17,6 +17,7 @@ import UIKit
     
     
 */
+
 class DifficultPointVC: CommonTableViewVC {
 
     override func viewDidLoad() {
