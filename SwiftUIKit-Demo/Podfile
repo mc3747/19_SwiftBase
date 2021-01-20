@@ -8,4 +8,6 @@ target 'SwiftUIKit-Demo' do
   
   pod 'MJRefresh'
 
+  pod 'lottie-ios'
+  
 end

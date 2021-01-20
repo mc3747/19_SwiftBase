@@ -55,6 +55,7 @@
 		5C5D847D2573DC0D003EE066 /* PaintLineCapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84672573DC0D003EE066 /* PaintLineCapVC.swift */; };
 		5C5D847E2573DC0D003EE066 /* PaintCilcleViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5D84682573DC0D003EE066 /* PaintCilcleViewVC.swift */; };
 		5C65414024F4E7C500278315 /* PhoneAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C65413F24F4E7C500278315 /* PhoneAlbum.swift */; };
+		5C6E53A225A43DB000D7E0D7 /* RefreshGifHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E53A125A43DB000D7E0D7 /* RefreshGifHeader.swift */; };
 		5C98F735254825260062FDF7 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F734254825260062FDF7 /* GridView.swift */; };
 		5C98F73D254825330062FDF7 /* GridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F73C254825330062FDF7 /* GridController.swift */; };
 		5C98F748254826020062FDF7 /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C98F747254826020062FDF7 /* UnitView.swift */; };
@@ -63,6 +64,9 @@
 		5CB3B8EE24BD861D0029338B /* BasisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8ED24BD861D0029338B /* BasisViewController.swift */; };
 		5CB3B8FB24BD8CAF0029338B /* BasisButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3B8FA24BD8CAF0029338B /* BasisButtonViewController.swift */; };
 		5CBECAE92729B0B06FE2C794 /* Pods_SwiftUIKit_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43010B1B0DFBAD83AE2DD065 /* Pods_SwiftUIKit_Demo.framework */; };
+		5CC8C83D25A3E57F003F7085 /* MJRefreshVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8C83C25A3E57F003F7085 /* MJRefreshVC.swift */; };
+		5CC8C84225A3E5E4003F7085 /* RefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8C84125A3E5E4003F7085 /* RefreshHeader.swift */; };
+		5CC8C84A25A3E5F1003F7085 /* RefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8C84925A3E5F1003F7085 /* RefreshFooter.swift */; };
 		5CCE44302509CF9C009A118C /* NoDataTableviewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE442F2509CF9C009A118C /* NoDataTableviewDemo.swift */; };
 		5CCE44322509D20F009A118C /* CustomMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE44312509D20F009A118C /* CustomMethod.swift */; };
 		5CCE4438250A0708009A118C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE4436250A0708009A118C /* CustomTableViewCell.swift */; };
@@ -152,6 +156,7 @@
 		5C5D84672573DC0D003EE066 /* PaintLineCapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintLineCapVC.swift; sourceTree = "<group>"; };
 		5C5D84682573DC0D003EE066 /* PaintCilcleViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintCilcleViewVC.swift; sourceTree = "<group>"; };
 		5C65413F24F4E7C500278315 /* PhoneAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAlbum.swift; sourceTree = "<group>"; };
+		5C6E53A125A43DB000D7E0D7 /* RefreshGifHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshGifHeader.swift; sourceTree = "<group>"; };
 		5C98F734254825260062FDF7 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		5C98F73C254825330062FDF7 /* GridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridController.swift; sourceTree = "<group>"; };
 		5C98F747254826020062FDF7 /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
@@ -159,6 +164,9 @@
 		5CB3B8EB24BD4B740029338B /* SelfDefinedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDefinedView.swift; sourceTree = "<group>"; };
 		5CB3B8ED24BD861D0029338B /* BasisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisViewController.swift; sourceTree = "<group>"; };
 		5CB3B8FA24BD8CAF0029338B /* BasisButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisButtonViewController.swift; sourceTree = "<group>"; };
+		5CC8C83C25A3E57F003F7085 /* MJRefreshVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJRefreshVC.swift; sourceTree = "<group>"; };
+		5CC8C84125A3E5E4003F7085 /* RefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshHeader.swift; sourceTree = "<group>"; };
+		5CC8C84925A3E5F1003F7085 /* RefreshFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshFooter.swift; sourceTree = "<group>"; };
 		5CCE442F2509CF9C009A118C /* NoDataTableviewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataTableviewDemo.swift; sourceTree = "<group>"; };
 		5CCE44312509D20F009A118C /* CustomMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMethod.swift; sourceTree = "<group>"; };
 		5CCE4436250A0708009A118C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
@@ -286,6 +294,7 @@
 				5C58735024BD39A1008ABCAD /* SceneDelegate.swift */,
 				5C58735224BD39A1008ABCAD /* ViewController.swift */,
 				5C18488125709D780037662A /* BaseViewController.swift */,
+				5CC8C83825A3E4CF003F7085 /* 18_刷新组件 */,
 				5C18488B2570A3EF0037662A /* 17_快速写UI */,
 				5C18487D257092C00037662A /* 16_绘图 */,
 				5C18487C257091120037662A /* 15_自定义view */,
@@ -502,6 +511,17 @@
 				5C35AD5624BF081E00AB63CB /* SnapKitVC_5.swift */,
 			);
 			path = 11_layout;
+			sourceTree = "<group>";
+		};
+		5CC8C83825A3E4CF003F7085 /* 18_刷新组件 */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8C83C25A3E57F003F7085 /* MJRefreshVC.swift */,
+				5CC8C84125A3E5E4003F7085 /* RefreshHeader.swift */,
+				5CC8C84925A3E5F1003F7085 /* RefreshFooter.swift */,
+				5C6E53A125A43DB000D7E0D7 /* RefreshGifHeader.swift */,
+			);
+			path = "18_刷新组件";
 			sourceTree = "<group>";
 		};
 		5CCE4433250A062E009A118C /* 1_default */ = {
@@ -804,6 +824,7 @@
 				5C5D846C2573DC0D003EE066 /* LayerAnimationVC.swift in Sources */,
 				5C35AD4E24BEEA3400AB63CB /* SnapKitVC_1.swift in Sources */,
 				5C35AD4C24BEEA0400AB63CB /* BasisLayoutVC.swift in Sources */,
+				5CC8C83D25A3E57F003F7085 /* MJRefreshVC.swift in Sources */,
 				5C5D84442573DB1D003EE066 /* DrawRectView.swift in Sources */,
 				5C5D84492573DBBB003EE066 /* DrawingViewVC.swift in Sources */,
 				5C18488D2570AFF90037662A /* FrameView.swift in Sources */,
@@ -831,10 +852,13 @@
 				5C98F735254825260062FDF7 /* GridView.swift in Sources */,
 				5C5D84792573DC0D003EE066 /* PaintTriangleViewVC.swift in Sources */,
 				5C5D84692573DC0D003EE066 /* HistogramVC.swift in Sources */,
+				5CC8C84225A3E5E4003F7085 /* RefreshHeader.swift in Sources */,
 				5C5D847A2573DC0D003EE066 /* PaintShadowView.swift in Sources */,
 				5C98F748254826020062FDF7 /* UnitView.swift in Sources */,
 				5C5D84732573DC0D003EE066 /* PaintLineCapView.swift in Sources */,
 				5CD0F7752506800B0062F46F /* HZRefreshNormalHeader.swift in Sources */,
+				5CC8C84A25A3E5F1003F7085 /* RefreshFooter.swift in Sources */,
+				5C6E53A225A43DB000D7E0D7 /* RefreshGifHeader.swift in Sources */,
 				5C35AD4224BE988300AB63CB /* StringTool.swift in Sources */,
 				5CD0F77E250681490062F46F /* UIButtonExtension.swift in Sources */,
 				5C35AD4824BED61A00AB63CB /* CustomizeTableViewCell.swift in Sources */,
