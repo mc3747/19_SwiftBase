@@ -117,9 +117,11 @@ struct SmallRectangle {
     @TwelveOrLess var width: Int
 }
 
+@objc (PropertyVC)
 // MARK: - 注释
 class PropertyVC: CommonViewController {
     override func viewDidLoad() {
+        super.viewDidLoad()
         let stepCounter = StepCounter()
         stepCounter.totalSteps = 200
     }

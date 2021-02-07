@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         //在SceneDelegate中设置导航
         
+        //增加webp格式支持
+        SDImageCodersManager.shared.addCoder(SDImageWebPCoder.shared)
         return true
     }
 

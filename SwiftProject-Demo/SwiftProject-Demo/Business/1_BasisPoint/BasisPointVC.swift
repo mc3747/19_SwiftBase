@@ -15,12 +15,15 @@ class BasisPointVC: CommonTableViewVC {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-         self.title = "基础"
-        //属性
+        self.title = "基础"
+        self.titleItems = ["属性","异常处理"]
+        self.vcItems = ["PropertyVC","ErrorHandleVC"]
         
-        //1.初始化方法
-        //2.传值方法
-        //3.定时器
+        //1，属性
+        //2，异常处理
+        //3，初始化方法
+        //4，传值方法
+        //5，定时器
     }
     
 

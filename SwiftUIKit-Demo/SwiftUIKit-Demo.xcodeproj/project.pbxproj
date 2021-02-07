@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B2DE97925CCD85B00C77A9C /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2DE97825CCD85B00C77A9C /* AnimationVC.swift */; };
+		4B2DE99D25CD20E100C77A9C /* new_home_recarbg.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DE99925CD20E000C77A9C /* new_home_recarbg.webp */; };
+		4B2DE99E25CD20E100C77A9C /* new_home_recar.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DE99A25CD20E000C77A9C /* new_home_recar.webp */; };
+		4B2DE99F25CD20E100C77A9C /* new_home_re_tire.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DE99B25CD20E000C77A9C /* new_home_re_tire.webp */; };
+		4B2DE9A025CD20E100C77A9C /* state_new.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DE99C25CD20E100C77A9C /* state_new.webp */; };
 		5C18488225709D780037662A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18488125709D780037662A /* BaseViewController.swift */; };
 		5C18488725709F580037662A /* MCSelfDefineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18488625709F580037662A /* MCSelfDefineVC.swift */; };
 		5C18488D2570AFF90037662A /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18488C2570AFF90037662A /* FrameView.swift */; };
@@ -101,6 +106,12 @@
 
 /* Begin PBXFileReference section */
 		43010B1B0DFBAD83AE2DD065 /* Pods_SwiftUIKit_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIKit_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2DE97825CCD85B00C77A9C /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
+		4B2DE98A25CCDDB600C77A9C /* SwiftUIKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUIKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B2DE99925CD20E000C77A9C /* new_home_recarbg.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = new_home_recarbg.webp; sourceTree = "<group>"; };
+		4B2DE99A25CD20E000C77A9C /* new_home_recar.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = new_home_recar.webp; sourceTree = "<group>"; };
+		4B2DE99B25CD20E000C77A9C /* new_home_re_tire.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = new_home_re_tire.webp; sourceTree = "<group>"; };
+		4B2DE99C25CD20E100C77A9C /* state_new.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = state_new.webp; sourceTree = "<group>"; };
 		54B6ACC400F0BDCE84583449 /* Pods-SwiftUIKit-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIKit-Demo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIKit-Demo/Pods-SwiftUIKit-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		5C18488125709D780037662A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		5C18488625709F580037662A /* MCSelfDefineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCSelfDefineVC.swift; sourceTree = "<group>"; };
@@ -217,6 +228,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4B2DE97725CCD83700C77A9C /* 19_动画 */ = {
+			isa = PBXGroup;
+			children = (
+				4B2DE99B25CD20E000C77A9C /* new_home_re_tire.webp */,
+				4B2DE99A25CD20E000C77A9C /* new_home_recar.webp */,
+				4B2DE99925CD20E000C77A9C /* new_home_recarbg.webp */,
+				4B2DE99C25CD20E100C77A9C /* state_new.webp */,
+				4B2DE97825CCD85B00C77A9C /* AnimationVC.swift */,
+			);
+			path = "19_动画";
+			sourceTree = "<group>";
+		};
 		5C18487C257091120037662A /* 15_自定义view */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,7 +316,9 @@
 				5C58734E24BD39A1008ABCAD /* AppDelegate.swift */,
 				5C58735024BD39A1008ABCAD /* SceneDelegate.swift */,
 				5C58735224BD39A1008ABCAD /* ViewController.swift */,
+				4B2DE98A25CCDDB600C77A9C /* SwiftUIKit-Bridging-Header.h */,
 				5C18488125709D780037662A /* BaseViewController.swift */,
+				4B2DE97725CCD83700C77A9C /* 19_动画 */,
 				5CC8C83825A3E4CF003F7085 /* 18_刷新组件 */,
 				5C18488B2570A3EF0037662A /* 17_快速写UI */,
 				5C18487D257092C00037662A /* 16_绘图 */,
@@ -730,8 +755,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2DE99D25CD20E100C77A9C /* new_home_recarbg.webp in Resources */,
 				5C58735E24BD39A5008ABCAD /* LaunchScreen.storyboard in Resources */,
 				5C58735B24BD39A5008ABCAD /* Assets.xcassets in Resources */,
+				4B2DE99E25CD20E100C77A9C /* new_home_recar.webp in Resources */,
+				4B2DE99F25CD20E100C77A9C /* new_home_re_tire.webp in Resources */,
+				4B2DE9A025CD20E100C77A9C /* state_new.webp in Resources */,
 				5C58735624BD39A1008ABCAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -856,6 +885,7 @@
 				5C5D847A2573DC0D003EE066 /* PaintShadowView.swift in Sources */,
 				5C98F748254826020062FDF7 /* UnitView.swift in Sources */,
 				5C5D84732573DC0D003EE066 /* PaintLineCapView.swift in Sources */,
+				4B2DE97925CCD85B00C77A9C /* AnimationVC.swift in Sources */,
 				5CD0F7752506800B0062F46F /* HZRefreshNormalHeader.swift in Sources */,
 				5CC8C84A25A3E5F1003F7085 /* RefreshFooter.swift in Sources */,
 				5C6E53A225A43DB000D7E0D7 /* RefreshGifHeader.swift in Sources */,
@@ -1052,6 +1082,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.SwiftUIKit-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftUIKit-Demo/SwiftUIKit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1075,6 +1106,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.SwiftUIKit-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftUIKit-Demo/SwiftUIKit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

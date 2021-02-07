@@ -10,4 +10,6 @@ target 'SwiftUIKit-Demo' do
 
   pod 'lottie-ios'
   
+  pod 'SDWebImageWebPCoder'
+  
 end

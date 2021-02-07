@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BA58B1E25CFBF4200BD9D1E /* ErrorHandleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA58B1D25CFBF4200BD9D1E /* ErrorHandleVC.swift */; };
 		5C094BD824BFDB3100BB2AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094BD724BFDB3100BB2AFD /* AppDelegate.swift */; };
 		5C094BDA24BFDB3100BB2AFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094BD924BFDB3100BB2AFD /* SceneDelegate.swift */; };
 		5C094BDC24BFDB3100BB2AFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C094BDB24BFDB3100BB2AFD /* ViewController.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BA58B1D25CFBF4200BD9D1E /* ErrorHandleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandleVC.swift; sourceTree = "<group>"; };
 		5C094BD424BFDB3100BB2AFD /* SwiftProject-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftProject-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C094BD724BFDB3100BB2AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C094BD924BFDB3100BB2AFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +136,14 @@
 				C43ED2CF34B02C75961D74CA /* Pods-SwiftProject-Demo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4BA58B1C25CFBF1F00BD9D1E /* 2_异常处理 */ = {
+			isa = PBXGroup;
+			children = (
+				4BA58B1D25CFBF4200BD9D1E /* ErrorHandleVC.swift */,
+			);
+			path = "2_异常处理";
 			sourceTree = "<group>";
 		};
 		539A6F7AD1B8526592436022 /* Frameworks */ = {
@@ -227,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				5C094C1324BFE2A300BB2AFD /* BasisPointVC.swift */,
+				4BA58B1C25CFBF1F00BD9D1E /* 2_异常处理 */,
 				5C5D848C2573E7A2003EE066 /* 1_属性 */,
 			);
 			path = 1_BasisPoint;
@@ -517,6 +528,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C094C1C24BFE3A900BB2AFD /* CommonViewController.swift in Sources */,
+				4BA58B1E25CFBF4200BD9D1E /* ErrorHandleVC.swift in Sources */,
 				5CFA3B832598649B006CB148 /* TimerSummaryVC.swift in Sources */,
 				5C094C1624BFE2BD00BB2AFD /* DesignStyleVC.swift in Sources */,
 				5C094C1A24BFE2E700BB2AFD /* AdvancedPointVC.swift in Sources */,
