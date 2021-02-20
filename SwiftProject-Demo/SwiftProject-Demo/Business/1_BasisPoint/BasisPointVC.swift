@@ -8,7 +8,7 @@
 
 import UIKit
 /*
- 
+ 基础功能
 */
 class BasisPointVC: CommonTableViewVC {
 
