@@ -15,12 +15,16 @@ PODS:
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
   - SnapKit (5.0.1)
+  - ZLPhotoBrowser (4.1.3):
+    - ZLPhotoBrowser/Core (= 4.1.3)
+  - ZLPhotoBrowser/Core (4.1.3)
 
 DEPENDENCIES:
   - lottie-ios
   - MJRefresh
   - SDWebImageWebPCoder
   - SnapKit
+  - ZLPhotoBrowser
 
 SPEC REPOS:
   trunk:
@@ -30,6 +34,7 @@ SPEC REPOS:
     - SDWebImage
     - SDWebImageWebPCoder
     - SnapKit
+    - ZLPhotoBrowser
 
 SPEC CHECKSUMS:
   libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
@@ -38,7 +43,8 @@ SPEC CHECKSUMS:
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   SDWebImageWebPCoder: f56ab499e3ea57dfeb6c3187dce183b10e160db0
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  ZLPhotoBrowser: 559062abac47b41ef140cff6ea2370e73623b05f
 
-PODFILE CHECKSUM: cbe704f68f24e4a0ed3f175b7276edd731087c43
+PODFILE CHECKSUM: c616595227deaeb3feb9e173b66bca6ecccdf5ba
 
 COCOAPODS: 1.10.1

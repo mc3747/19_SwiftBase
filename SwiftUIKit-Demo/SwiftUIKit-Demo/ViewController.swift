@@ -11,10 +11,10 @@ import UIKit
 class ViewController: UITableViewController {
     
     let titleArray:[String] = ["1_view","2_button","3_imageView","4_text","5_alert","6_stack",
-                               "7_tableview","8_collectionView","9_tabBar","10_naviBar","11_layout","12_尺寸适配","13_无数据","14_九宫格","15_自定义view","16_绘图","17_快速写UI","18_刷新组件","19_动画相关"]
+                               "7_tableview","8_collectionView","9_tabBar","10_naviBar","11_layout","12_尺寸适配","13_无数据","14_九宫格","15_自定义view","16_绘图","17_快速写UI","18_刷新组件","19_动画相关","20_相册相关"]
     
     let vcNameArray:[String] = ["BasisViewController","BasisButtonViewController","","","","",
-                                "BasisTableViewViewController","","","","BasisLayoutVC","","NoDataTableviewDemo","GridController","","DrawingViewVC","","MJRefreshVC","AnimationVC"]
+                                "BasisTableViewViewController","","","","BasisLayoutVC","","NoDataTableviewDemo","GridController","","DrawingViewVC","","MJRefreshVC","AnimationVC","WeChatMomentDemoVC"]
     
     
     override func viewDidLoad() {

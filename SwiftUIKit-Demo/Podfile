@@ -12,4 +12,6 @@ target 'SwiftUIKit-Demo' do
   
   pod 'SDWebImageWebPCoder'
   
+  pod 'ZLPhotoBrowser'
+  
 end

@@ -12,6 +12,7 @@
 		4B2DE99E25CD20E100C77A9C /* new_home_recar.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DE99A25CD20E000C77A9C /* new_home_recar.webp */; };
 		4B2DE99F25CD20E100C77A9C /* new_home_re_tire.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DE99B25CD20E000C77A9C /* new_home_re_tire.webp */; };
 		4B2DE9A025CD20E100C77A9C /* state_new.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4B2DE99C25CD20E100C77A9C /* state_new.webp */; };
+		4B6E532725F5D30A00649E32 /* WeChatMomentDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E532625F5D30A00649E32 /* WeChatMomentDemoVC.swift */; };
 		5C18488225709D780037662A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18488125709D780037662A /* BaseViewController.swift */; };
 		5C18488725709F580037662A /* MCSelfDefineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18488625709F580037662A /* MCSelfDefineVC.swift */; };
 		5C18488D2570AFF90037662A /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18488C2570AFF90037662A /* FrameView.swift */; };
@@ -112,6 +113,7 @@
 		4B2DE99A25CD20E000C77A9C /* new_home_recar.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = new_home_recar.webp; sourceTree = "<group>"; };
 		4B2DE99B25CD20E000C77A9C /* new_home_re_tire.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = new_home_re_tire.webp; sourceTree = "<group>"; };
 		4B2DE99C25CD20E100C77A9C /* state_new.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = state_new.webp; sourceTree = "<group>"; };
+		4B6E532625F5D30A00649E32 /* WeChatMomentDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatMomentDemoVC.swift; sourceTree = "<group>"; };
 		54B6ACC400F0BDCE84583449 /* Pods-SwiftUIKit-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIKit-Demo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIKit-Demo/Pods-SwiftUIKit-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		5C18488125709D780037662A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		5C18488625709F580037662A /* MCSelfDefineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCSelfDefineVC.swift; sourceTree = "<group>"; };
@@ -240,6 +242,14 @@
 			path = "19_动画";
 			sourceTree = "<group>";
 		};
+		4B6E531A25F5D14000649E32 /* 20_相册发布 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6E532625F5D30A00649E32 /* WeChatMomentDemoVC.swift */,
+			);
+			path = "20_相册发布";
+			sourceTree = "<group>";
+		};
 		5C18487C257091120037662A /* 15_自定义view */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +328,7 @@
 				5C58735224BD39A1008ABCAD /* ViewController.swift */,
 				4B2DE98A25CCDDB600C77A9C /* SwiftUIKit-Bridging-Header.h */,
 				5C18488125709D780037662A /* BaseViewController.swift */,
+				4B6E531A25F5D14000649E32 /* 20_相册发布 */,
 				4B2DE97725CCD83700C77A9C /* 19_动画 */,
 				5CC8C83825A3E4CF003F7085 /* 18_刷新组件 */,
 				5C18488B2570A3EF0037662A /* 17_快速写UI */,
@@ -855,6 +866,7 @@
 				5C35AD4C24BEEA0400AB63CB /* BasisLayoutVC.swift in Sources */,
 				5CC8C83D25A3E57F003F7085 /* MJRefreshVC.swift in Sources */,
 				5C5D84442573DB1D003EE066 /* DrawRectView.swift in Sources */,
+				4B6E532725F5D30A00649E32 /* WeChatMomentDemoVC.swift in Sources */,
 				5C5D84492573DBBB003EE066 /* DrawingViewVC.swift in Sources */,
 				5C18488D2570AFF90037662A /* FrameView.swift in Sources */,
 				5C5D847C2573DC0D003EE066 /* PaintLineViewVC.swift in Sources */,
