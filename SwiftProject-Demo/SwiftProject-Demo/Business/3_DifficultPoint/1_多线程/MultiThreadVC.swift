@@ -12,8 +12,9 @@ import UIKit
 class MultiThreadVC: CommonViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        GCDTest1()
-        GCDTest2()
+//        GCDTest1()
+//        GCDTest2()
+        GCDTest3()
     }
     // MARK: - 1_开线程异步执行完耗时代码，返回主线程刷新UI
     func GCDTest1() {
@@ -46,5 +47,17 @@ class MultiThreadVC: CommonViewController {
             print("111111")
         }
     }
-    
+    // MARK: - 3_使用线程组，多个任务执行完毕后，再执行后面
+    func GCDTest3(){
+        let group = DispatchGroup()
+        for item in [1,2,3] {
+            DispatchQueue.global().async {
+                print("子任务'\(item)'")
+            }
+        }
+        group.notify(queue: DispatchQueue.main) {
+            //更新列表
+            print("结果：")
+        }
+    }
 }
