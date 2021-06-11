@@ -100,7 +100,76 @@ import Foundation
 //print(max + 1)
 
 
-struct Point {
-    var x :Int,y : Int
-    
+//struct Point {
+//    var x :Int,y : Int
+//    static func + (p1:Point,p2:Point) -> Point{
+//        Point(x: p1.x + p2.x, y: p1.y + p2.y)
+//    }
+//}
+//
+//print(Point(x: 4, y: 5) + Point(x: 3, y: 4))
+//
+//struct Point2{
+//    var x = 1
+//    var y : Int
+//}
+//Point2(x: 2, y: 3)
+//Point2(y: 4)
+
+//extension Double {
+//    var km: Double { return self * 1_000.0 }
+//    var m: Double { return self }
+//    var cm: Double { return self / 100.0 }
+//    var mm: Double { return self / 1_000.0 }
+//    var ft: Double { return self / 3.28084 }
+//}
+//let oneInch = 25.4.mm
+//print("One inch is \(oneInch) meters")
+
+//struct Size {
+//    var width = 0.0, height = 0.0
+//}
+//struct Point {
+//    var x = 0.0, y = 0.0
+//}
+//struct Rect {
+//    var origin = Point()
+//    var size = Size()
+//}
+//extension Rect {
+//    init(center: Point, size: Size) {
+//        let originX = center.x - (size.width / 2)
+//        let originY = center.y - (size.height / 2)
+//        self.init(origin: Point(x: originX, y: originY), size: size)
+//    }
+//}
+//let centerRect = Rect(center: Point(x: 4.0, y: 4.0),
+//                      size: Size(width: 3.0, height: 3.0))
+//// centerRect 的 origin 是 (2.5, 2.5) 并且它的 size 是 (3.0, 3.0)
+//print(centerRect)
+
+//extension Int {
+//    func repetitions(task: () -> Void) {
+//        for _ in 0..<self {
+//            task()
+//        }
+//    }
+//}
+//3.repetitions {
+//    print("Hello!")
+//}
+
+extension Int {
+    subscript(digitIndex: Int) -> Int {
+        var decimalBase = 1
+        for _ in 0..<digitIndex {
+            decimalBase *= 10
+        }
+        return (self / decimalBase) % 10
+    }
 }
+print(746381295[0])
+// 返回 5
+print(746381295[1])
+// 返回 9
+
