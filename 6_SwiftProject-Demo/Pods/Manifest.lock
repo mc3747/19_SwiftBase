@@ -1,26 +1,49 @@
 PODS:
+  - Realm (10.9.0):
+    - Realm/Headers (= 10.9.0)
+  - Realm/Headers (10.9.0)
+  - RealmSwift (10.9.0):
+    - Realm (= 10.9.0)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB.swift (1.0.8.2):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
 
 DEPENDENCIES:
+  - RealmSwift
   - RxCocoa
   - RxSwift
+  - WCDB.swift
 
 SPEC REPOS:
   trunk:
+    - Realm
+    - RealmSwift
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SQLiteRepairKit
+    - WCDB.swift
+    - WCDBOptimizedSQLCipher
 
 SPEC CHECKSUMS:
+  Realm: 9feef41ab8230ed706c4dc503fc292594915bf9a
+  RealmSwift: 91246183b772e0ea1bf777116c4b8d9939f983b3
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  WCDB.swift: 05d509d7a0e60fb6e11c34eb7e4027c0fab5849f
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
 
-PODFILE CHECKSUM: 42b33cee825c8548c51025813af4c5b44352d277
+PODFILE CHECKSUM: d42ecc94da796f60be5216af0eed07e5d14e6316
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

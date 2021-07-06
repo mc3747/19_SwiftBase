@@ -6,5 +6,7 @@ target 'SwiftProject-Demo' do
 
 	pod 'RxSwift'
   pod 'RxCocoa'
-
+  pod 'RealmSwift'
+  pod 'WCDB.swift'
+  
 end
