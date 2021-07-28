@@ -39,6 +39,7 @@
 		5CFA3B8B25995938006CB148 /* MCGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA3B8A25995938006CB148 /* MCGCDTimer.swift */; };
 		5CFA3B9125995B12006CB148 /* ZJKillTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA3B8F25995B11006CB148 /* ZJKillTimer.swift */; };
 		5CFA3B9225995B12006CB148 /* ZJTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA3B9025995B11006CB148 /* ZJTimer.swift */; };
+		84DB878D26AE9CEB00B4CF5D /* GlobalMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB878C26AE9CEB00B4CF5D /* GlobalMethod.swift */; };
 		84DDC4D926A7F98200A449F2 /* KFontConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDC4D626A7F98200A449F2 /* KFontConfig.swift */; };
 		84DDC4DA26A7F98200A449F2 /* KAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDC4D726A7F98200A449F2 /* KAppConfig.swift */; };
 		84DDC4DB26A7F98200A449F2 /* KImageConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDC4D826A7F98200A449F2 /* KImageConfig.swift */; };
@@ -102,6 +103,7 @@
 		5CFA3B8A25995938006CB148 /* MCGCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCGCDTimer.swift; sourceTree = "<group>"; };
 		5CFA3B8F25995B11006CB148 /* ZJKillTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJKillTimer.swift; sourceTree = "<group>"; };
 		5CFA3B9025995B11006CB148 /* ZJTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJTimer.swift; sourceTree = "<group>"; };
+		84DB878C26AE9CEB00B4CF5D /* GlobalMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalMethod.swift; sourceTree = "<group>"; };
 		84DDC4D626A7F98200A449F2 /* KFontConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFontConfig.swift; sourceTree = "<group>"; };
 		84DDC4D726A7F98200A449F2 /* KAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KAppConfig.swift; sourceTree = "<group>"; };
 		84DDC4D826A7F98200A449F2 /* KImageConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KImageConfig.swift; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				5C094C2624C02E9400BB2AFD /* PushTool.swift */,
+				84DB878C26AE9CEB00B4CF5D /* GlobalMethod.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -586,6 +589,7 @@
 				5C094C3124C047EA00BB2AFD /* RxSwift2_OperatorVC.swift in Sources */,
 				5C094C2F24C047BB00BB2AFD /* RxSwift1_ConceptVC.swift in Sources */,
 				5C094C2724C02E9400BB2AFD /* PushTool.swift in Sources */,
+				84DB878D26AE9CEB00B4CF5D /* GlobalMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,6 +31,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                        self.window?.rootViewController = naviVC
                        //5.window可见
                        self.window?.makeKeyAndVisible()
+                    let a = 10;
+            XWLog(a)
                  }
            
 //        guard let _ = (scene as? UIWindowScene) else { return }
