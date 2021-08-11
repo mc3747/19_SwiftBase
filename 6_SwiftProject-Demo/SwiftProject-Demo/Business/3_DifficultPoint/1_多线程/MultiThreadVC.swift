@@ -12,25 +12,37 @@ import UIKit
 class MultiThreadVC: CommonViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+//🌈1-线程基础
+//    let demo1 = BaseThreadDemo()
+//    demo1.asyncDemo()
+//    demo1.syncDemo()
+//    demo1.hybridDemo()
+        
+//🌈2-死锁场景
+    let demo2 = DeadLockDemo()
+    demo2.deadLock1()
+        
+        
 //        GCDTest1()
 //        GCDTest2()
-        GCDTest3()
+//        GCDTest3()
     }
+    
     // MARK: - 1_开线程异步执行完耗时代码，返回主线程刷新UI
     func GCDTest1() {
-            DispatchQueue.global().async {//并行、异步
-                 print("开一条全局队列异步执行任务")
-                DispatchQueue.main.async {//串行、异步
-                    print("在主队列执行刷新界面任务")
-                }
+        DispatchQueue.global().async {//并行、异步
+            print("开一条全局队列异步执行任务")
+            DispatchQueue.main.async {//串行、异步
+                print("在主队列执行刷新界面任务")
             }
-       }
+        }
+    }
     // MARK: - 2_等待异步执行多个任务后, 再执行下一个任务
     func GCDTest2() {
         let myQueue = DispatchQueue(label: "com.myQueue", qos: .default, attributes: .concurrent, autoreleaseFrequency: .workItem, target: nil)//并行队列
         myQueue.async {//任务一
             for _ in 0...10 {
-                 print("任务1......")
+                print("任务1......")
             }
         }
         myQueue.async {
