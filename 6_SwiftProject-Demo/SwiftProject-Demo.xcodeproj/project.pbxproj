@@ -41,6 +41,7 @@
 		5CFA3B9225995B12006CB148 /* ZJTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA3B9025995B11006CB148 /* ZJTimer.swift */; };
 		84607B7D26C3C81700386ED9 /* BaseThreadDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84607B7C26C3C81700386ED9 /* BaseThreadDemo.swift */; };
 		84607B7F26C3CC9100386ED9 /* DeadLockDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84607B7E26C3CC9100386ED9 /* DeadLockDemo.swift */; };
+		84607B8126C406BB00386ED9 /* NetworkRequestDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84607B8026C406BB00386ED9 /* NetworkRequestDemo.swift */; };
 		84DB878D26AE9CEB00B4CF5D /* GlobalMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB878C26AE9CEB00B4CF5D /* GlobalMethod.swift */; };
 		84DDC4D926A7F98200A449F2 /* KFontConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDC4D626A7F98200A449F2 /* KFontConfig.swift */; };
 		84DDC4DA26A7F98200A449F2 /* KAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DDC4D726A7F98200A449F2 /* KAppConfig.swift */; };
@@ -107,6 +108,7 @@
 		5CFA3B9025995B11006CB148 /* ZJTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJTimer.swift; sourceTree = "<group>"; };
 		84607B7C26C3C81700386ED9 /* BaseThreadDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseThreadDemo.swift; sourceTree = "<group>"; };
 		84607B7E26C3CC9100386ED9 /* DeadLockDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadLockDemo.swift; sourceTree = "<group>"; };
+		84607B8026C406BB00386ED9 /* NetworkRequestDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestDemo.swift; sourceTree = "<group>"; };
 		84DB878C26AE9CEB00B4CF5D /* GlobalMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalMethod.swift; sourceTree = "<group>"; };
 		84DDC4D626A7F98200A449F2 /* KFontConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFontConfig.swift; sourceTree = "<group>"; };
 		84DDC4D726A7F98200A449F2 /* KAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KAppConfig.swift; sourceTree = "<group>"; };
@@ -358,6 +360,7 @@
 				5C18F00C256AC03200656D76 /* MultiThreadVC.swift */,
 				84607B7C26C3C81700386ED9 /* BaseThreadDemo.swift */,
 				84607B7E26C3CC9100386ED9 /* DeadLockDemo.swift */,
+				84607B8026C406BB00386ED9 /* NetworkRequestDemo.swift */,
 			);
 			path = "1_多线程";
 			sourceTree = "<group>";
@@ -587,6 +590,7 @@
 				5C094C1E24BFE3C700BB2AFD /* CommonTabBarVC.swift in Sources */,
 				5C094BE224BFDB3100BB2AFD /* SwiftProject_Demo.xcdatamodeld in Sources */,
 				84DDC4DB26A7F98200A449F2 /* KImageConfig.swift in Sources */,
+				84607B8126C406BB00386ED9 /* NetworkRequestDemo.swift in Sources */,
 				5C094C2B24C0324400BB2AFD /* RxSwiftVC.swift in Sources */,
 				5C094C2024BFE3E100BB2AFD /* CommonNaviVC.swift in Sources */,
 				5C094BDA24BFDB3100BB2AFD /* SceneDelegate.swift in Sources */,

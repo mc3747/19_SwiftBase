@@ -19,9 +19,14 @@ class MultiThreadVC: CommonViewController {
 //    demo1.hybridDemo()
         
 //🌈2-死锁场景
-    let demo2 = DeadLockDemo()
-    demo2.deadLock1()
+//    let demo2 = DeadLockDemo()
+//    demo2.deadLock1()
+//    demo2.deadLock2()
         
+//🌈3-网络请求demo
+        let demo3 = NetworkRequestDemo()
+//        demo3.normalDemo()
+        demo3.gcdGroupDemo()
         
 //        GCDTest1()
 //        GCDTest2()
